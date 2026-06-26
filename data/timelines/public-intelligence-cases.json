@@ -1,0 +1,95 @@
+{
+  "name": "SpyWatch Public Intelligence Case Timeline",
+  "last_reviewed": "2026-06-26",
+  "safety": "Educational public-source timeline. No live tracking, private addresses, private contact data, or copied personal photos.",
+  "events": [
+    {
+      "date": "2004-2009",
+      "case_id": "case-buryakov-ny-2015",
+      "title": "Buryakov prior South Africa period noted in DOJ release",
+      "category": "background",
+      "summary": "The DOJ sentencing release says Buryakov previously worked in South Africa before the New York case period.",
+      "source": "DOJ SDNY"
+    },
+    {
+      "date": "2010-06-28",
+      "case_id": "case-ghost-stories-2010",
+      "title": "DOJ announces arrests in Operation Ghost Stories",
+      "category": "legal",
+      "summary": "DOJ announced charges after a multi-year FBI investigation into alleged Russian illegals in the United States.",
+      "source": "DOJ OPA"
+    },
+    {
+      "date": "2010-07-09",
+      "case_id": "case-ghost-stories-2010",
+      "title": "Vienna prisoner exchange follows pleas",
+      "category": "outcome",
+      "summary": "The 2010 case moved into a high-profile exchange after guilty pleas.",
+      "source": "FBI / public summaries"
+    },
+    {
+      "date": "2011-10-31",
+      "case_id": "case-ghost-stories-2010",
+      "title": "FBI publishes Operation Ghost Stories educational materials",
+      "category": "public-release",
+      "summary": "The FBI released photos, video clips, and documents through FOIA-related public material.",
+      "source": "FBI"
+    },
+    {
+      "date": "2015-01-26",
+      "case_id": "case-buryakov-ny-2015",
+      "title": "Buryakov case becomes public",
+      "category": "legal",
+      "summary": "Public records identified an SVR New York case involving economic-intelligence collection and non-official cover.",
+      "source": "DOJ SDNY"
+    },
+    {
+      "date": "2016-05-25",
+      "case_id": "case-buryakov-ny-2015",
+      "title": "Buryakov sentenced",
+      "category": "outcome",
+      "summary": "Buryakov was sentenced in Manhattan federal court to 30 months in prison and ordered removed from the United States after completion of sentence.",
+      "source": "DOJ SDNY"
+    },
+    {
+      "date": "2018-09-15",
+      "case_id": "case-maria-adela-olga-kolobova",
+      "title": "Maria Adela reportedly leaves Naples for Moscow",
+      "category": "timeline",
+      "summary": "The user-provided transcript and public reporting describe Maria Adela leaving Naples for Moscow shortly after GRU passport-range reporting became public.",
+      "source": "Bellingcat / user transcript"
+    },
+    {
+      "date": "2022-06",
+      "case_id": "case-cherkasov-icc-2022",
+      "title": "Dutch authorities disclose ICC access attempt",
+      "category": "public-release",
+      "summary": "Public reporting described the attempted entry into the International Criminal Court under a Brazilian identity.",
+      "source": "Dutch public statement / BBC"
+    },
+    {
+      "date": "2022-08-25",
+      "case_id": "case-maria-adela-olga-kolobova",
+      "title": "Maria Adela / Olga Kolobova investigation published",
+      "category": "public-release",
+      "summary": "Bellingcat and partners published the public investigation linking the Naples socialite legend to Olga Kolobova.",
+      "source": "Bellingcat"
+    },
+    {
+      "date": "2024-07-31",
+      "case_id": "case-dultsev-slovenia-2022",
+      "title": "Slovenia sentencing and exchange context",
+      "category": "outcome",
+      "summary": "Public reporting described the Slovenian guilty pleas shortly before the 2024 exchange.",
+      "source": "The Guardian"
+    },
+    {
+      "date": "2024-09-05",
+      "case_id": "case-unit-29155-public-names",
+      "title": "Unit 29155 cyber public naming wave",
+      "category": "public-release",
+      "summary": "CISA, DOJ, and Rewards for Justice publicly linked named GRU Unit 29155 officers to cyber activity involving WhisperGate and critical infrastructure targeting.",
+      "source": "CISA / DOJ / RFJ"
+    }
+  ]
+}
