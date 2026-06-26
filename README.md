@@ -6,7 +6,7 @@ It is built for students, defenders, journalists, researchers, and policy teams 
 
 ## Public archive UI
 
-This repo now includes a static public case archive at `index.html` backed by `data/public-case-archive.json`.
+This repo includes a static public case archive at `index.html` backed by `data/public-case-archive.json`.
 
 Current archive coverage includes:
 
@@ -16,8 +16,19 @@ Current archive coverage includes:
 - Sergey Cherkasov / Victor Muller Ferreira
 - Mikhail Mikushin / Jose Assis Giammaria
 - Pablo Gonzalez / Pavel Rubtsov, marked as disputed
+- Evgeny Buryakov / SVR New York economic-intelligence case
+- GRU Unit 29155 public names and source-handling notes
 
 The archive is intentionally source-first and defensive. It includes public case names, aliases, story beats, confidence labels, and defender lessons. It intentionally excludes private addresses, private family targeting details, scraped photos, live target tracking, credential material, intrusion instructions, and birth-date harvesting.
+
+## New expansion files
+
+- `docs/casefiles/README.md` - casefile index and expansion queue
+- `docs/casefiles/operation-ghost-stories.md` - Ghost Stories educational casefile
+- `docs/casefiles/buryakov-svr-new-york.md` - New York SVR economic-intelligence casefile
+- `docs/casefiles/gru-unit-29155-public-names.md` - Unit 29155 public-source handling notes
+- `docs/source-standards-expanded.md` - source tiers, confidence labels, and image handling
+- `data/timelines/public-intelligence-cases.json` - structured timeline for archive events
 
 ## Mission
 
@@ -40,24 +51,28 @@ For photographs or images, link to official case pages, court exhibits, reputabl
 ## Repository map
 
 ```text
-index.html                            static public archive UI
-assets/site.css                       static archive styling
-data/public-case-archive.json         public case archive dataset
-.github/workflows/validate.yml        CI validation
-CONTRIBUTING.md                       contribution rules
-docs/source-policy.md                 source standards and confidence rules
-docs/taxonomy.md                      actor taxonomy
-docs/watchlist.md                     global research backlog
-docs/illegals-program.md              deep-cover illegals case-study framework
-docs/illegals-operator-roster.md      safe roster expansion notes
-docs/research-playbook.md             safe research workflow
-docs/defender-briefings.md            defensive briefing templates
-schema/actor.schema.json              actor profile schema
-data/actors/index.yml                 actor index
-data/actors/*/*.yml                   actor profiles
-prompts/openai-enrichment.md          safe enrichment workflow
-scripts/build_index.py                rebuilds the actor index
-scripts/validate_actors.py            validates actor YAML
+index.html                                      static public archive UI
+assets/site.css                                 static archive styling
+data/public-case-archive.json                   public case archive dataset
+data/timelines/public-intelligence-cases.json   public intelligence timeline
+docs/casefiles/README.md                        casefile index
+docs/casefiles/*.md                             expanded public casefiles
+docs/source-standards-expanded.md               expanded source standards
+.github/workflows/validate.yml                  CI validation
+CONTRIBUTING.md                                 contribution rules
+docs/source-policy.md                           source standards and confidence rules
+docs/taxonomy.md                                actor taxonomy
+docs/watchlist.md                               global research backlog
+docs/illegals-program.md                        deep-cover illegals case-study framework
+docs/illegals-operator-roster.md                safe roster expansion notes
+docs/research-playbook.md                       safe research workflow
+docs/defender-briefings.md                      defensive briefing templates
+schema/actor.schema.json                        actor profile schema
+data/actors/index.yml                           actor index
+data/actors/*/*.yml                             actor profiles
+prompts/openai-enrichment.md                    safe enrichment workflow
+scripts/build_index.py                          rebuilds the actor index
+scripts/validate_actors.py                      validates actor YAML
 ```
 
 ## Seed profile coverage
