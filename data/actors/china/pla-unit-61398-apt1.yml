@@ -1,0 +1,35 @@
+id: cn-pla-unit-61398-apt1
+name: PLA Unit 61398 / APT1
+country: China
+sponsor: People's Liberation Army reporting
+actor_type: military cyber
+aliases:
+  - APT1
+  - Comment Crew
+confidence: high
+summary: >-
+  PLA Unit 61398 is one of the most cited early public cases of state-linked cyber attribution. Public reporting associated it with large-scale industrial and government information collection.
+public_reporting:
+  - title: APT1 public reporting
+    year: 2013
+    note: The actor became a major reference point for public discussion of state-linked cyber activity.
+sectors:
+  - industrial
+  - government
+  - technology
+  - energy
+  - manufacturing
+analytic_notes:
+  - Treat historic reporting as a baseline case study, not proof of current activity.
+  - Separate this actor from later China-linked clusters unless sources connect them.
+defensive_notes:
+  - Use this profile as a case study for long-term monitoring, evidence preservation, and executive-level risk communication.
+sources:
+  - title: APT1 Exposing One of China's Cyber Espionage Units
+    publisher: Mandiant
+    date: 2013-02-19
+    url: https://www.mandiant.com/resources/reports/apt1-exposing-one-chinas-cyber-espionage-units
+  - title: PLA Unit 61398
+    publisher: Wikipedia overview with references
+    url: https://en.wikipedia.org/wiki/PLA_Unit_61398
+last_reviewed: 2026-06-25
