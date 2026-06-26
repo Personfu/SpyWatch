@@ -1,0 +1,19 @@
+actors:
+  - id: ru-gru-29155
+    name: GRU Unit 29155
+    path: data/actors/russia/gru-unit-29155.yml
+  - id: ru-gru-74455-sandworm
+    name: GRU Unit 74455 / Sandworm
+    path: data/actors/russia/gru-unit-74455-sandworm.yml
+  - id: ru-gru-26165-apt28
+    name: GRU Unit 26165 / APT28
+    path: data/actors/russia/gru-unit-26165-apt28.yml
+  - id: cn-apt41
+    name: APT41 / Double Dragon
+    path: data/actors/china/apt41-double-dragon.yml
+  - id: ir-muddywater
+    name: MuddyWater
+    path: data/actors/iran/muddywater.yml
+  - id: kp-lazarus-group
+    name: Lazarus Group
+    path: data/actors/north-korea/lazarus-group.yml
