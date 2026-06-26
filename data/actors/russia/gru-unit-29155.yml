@@ -1,0 +1,62 @@
+id: ru-gru-29155
+name: GRU Unit 29155
+country: Russia
+sponsor: GRU / Main Directorate of the General Staff
+actor_type: military intelligence / hybrid operations
+aliases:
+  - Cadet Blizzard
+  - Ember Bear
+  - UNC2589
+  - Bleeding Bear
+confidence: high
+summary: >-
+  Public reporting describes Unit 29155 as a Russian military intelligence unit associated with foreign hybrid operations. In 2024, allied public reporting linked a cyber element tracked as Cadet Blizzard or Ember Bear to this unit.
+public_reporting:
+  - title: Public reporting on European hybrid activity
+    year: 2014-2019
+    note: Open sources link the unit to several European cases, including the Salisbury poisoning, Vrbětice depot explosions, Montenegro coup attempt, and Bulgarian arms-dealer poisoning allegations.
+  - title: WhisperGate and Ukraine-related cyber reporting
+    year: 2022
+    note: Public reporting links Cadet Blizzard / Ember Bear activity to Ukrainian government and infrastructure targeting around Russia's full-scale invasion.
+  - title: U.S. and allied public advisory
+    year: 2024
+    note: Allied agencies publicly associated cyber activity with GRU Unit 29155 and warned critical infrastructure defenders.
+sectors:
+  - government
+  - critical infrastructure
+  - energy
+  - transportation
+  - healthcare
+  - defense
+  - diplomatic
+geographic_focus:
+  - Ukraine
+  - Europe
+  - NATO member states
+  - United States
+analytic_notes:
+  - This profile separates public attribution from operational certainty.
+  - Unit 29155 is an example of hybrid activity where physical-world operations and cyber activity appear in the same public reporting stream.
+  - Alias mapping is unstable across vendors; keep all names sourced and dated.
+defensive_notes:
+  - Treat public advisories as defensive reading, not as an actor-emulation recipe.
+  - Prioritize identity security, endpoint logging, backup integrity, vendor-access review, and public-facing service hygiene.
+  - Critical infrastructure organizations should review joint government advisories and sector-specific guidance.
+sources:
+  - title: CISA AA24-249A Russian Military Cyber Actors Target U.S. and Global Critical Infrastructure
+    publisher: CISA
+    date: 2024-09-05
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a
+  - title: Five Russian GRU Officers and One Civilian Charged for Conspiring to Hack Ukrainian Government
+    publisher: U.S. Department of Justice
+    date: 2024-09-05
+    url: https://www.justice.gov/opa/pr/five-russian-gru-officers-and-one-civilian-charged-conspiring-hack-ukrainian-government
+  - title: GRU Officers - Unit 29155
+    publisher: Rewards for Justice
+    date: 2024-09-05
+    url: https://rewardsforjustice.net/rewards/gru-officers-unit-29155/
+  - title: Russia's Most Notorious Special Forces Unit Now Has Its Own Cyber Warfare Team
+    publisher: WIRED
+    date: 2024-09-05
+    url: https://www.wired.com/story/russia-gru-unit-29155-hacker-team/
+last_reviewed: 2026-06-25
