@@ -1,10 +1,8 @@
-# SpyWatch Global Watchlist
+# Global Watchlist
 
 This page is a starter map for future defensive profiles. It is not a legal finding, and each entry needs its own sourced profile before being treated as mature research.
 
-## State and state-aligned actor leads
-
-### Russia
+## Russia
 
 - GRU Unit 29155 / Cadet Blizzard / Ember Bear / UNC2589
 - GRU Unit 74455 / Sandworm / Voodoo Bear
@@ -13,7 +11,7 @@ This page is a starter map for future defensive profiles. It is not a legal find
 - Star Blizzard / Callisto Group
 - Turla / Snake / Venomous Bear
 
-### China
+## China
 
 - APT41 / Double Dragon
 - PLA Unit 61398 / APT1
@@ -23,16 +21,16 @@ This page is a starter map for future defensive profiles. It is not a legal find
 - APT10 / Stone Panda
 - Mustang Panda
 
-### Iran
+## Iran
 
 - MuddyWater / Mango Sandstorm / Static Kitten
 - Charming Kitten / APT35 / Mint Sandstorm
 - APT33 / Elfin
 - APT34 / OilRig
-- IRGC Quds Force Unit 400 references
-- IRGC Quds Force Unit 840 references
+- Quds Force Unit 400 references
+- Quds Force Unit 840 references
 
-### North Korea
+## North Korea
 
 - Lazarus Group / Hidden Cobra
 - APT38
@@ -42,7 +40,7 @@ This page is a starter map for future defensive profiles. It is not a legal find
 - Lab 110
 - Office 39
 
-### South Asia and regional clusters
+## South Asia and regional clusters
 
 - Transparent Tribe / APT36 / Mythic Leopard
 - Gorgon Group
@@ -60,48 +58,8 @@ This page is a starter map for future defensive profiles. It is not a legal find
 - KGB Thirteenth Department references
 - U.S. 902nd Military Intelligence Group
 
-## eCrime naming family backlog
+## eCrime naming-family backlog
 
 These entries are listed as research leads only. They should not be treated as state units by default.
 
-- Altered Spider
-- Apothecary Spider
-- Bitwise Spider
-- Blind Spider
-- Brain Spider
-- Brash Spider
-- Chatty Spider
-- Cookie Spider
-- Cordial Spider
-- Curly Spider
-- Frozen Spider
-- Graceful Spider
-- Hazard Spider
-- Hermit Spider
-- Hook Spider
-- Imposter Spider
-- Lightning Spider
-- Masked Spider
-- Nitro Spider
-- Plastic Spider
-- Plump Spider
-- Prophet Spider
-- Punk Spider
-- Radiant Spider
-- Recess Spider
-- Revenant Spider
-- Royal Spider
-- Samba Spider
-- Scattered Spider
-- Scion Spider
-- Scully Spider
-- Sly Spider
-- Snarky Spider
-- Solar Spider
-- Sprite Spider
-- Squab Spider
-- Traveling Spider
-- Tunnel Spider
-- Veto Spider
-- Vice Spider
-- Warlock Spider
+Altered Spider, Apothecary Spider, Bitwise Spider, Blind Spider, Brain Spider, Brash Spider, Chatty Spider, Cookie Spider, Cordial Spider, Curly Spider, Frozen Spider, Graceful Spider, Hazard Spider, Hermit Spider, Hook Spider, Imposter Spider, Lightning Spider, Masked Spider, Nitro Spider, Plastic Spider, Plump Spider, Prophet Spider, Punk Spider, Radiant Spider, Recess Spider, Revenant Spider, Royal Spider, Samba Spider, Scattered Spider, Scion Spider, Scully Spider, Sly Spider, Snarky Spider, Solar Spider, Sprite Spider, Squab Spider, Traveling Spider, Tunnel Spider, Veto Spider, Vice Spider, Warlock Spider.

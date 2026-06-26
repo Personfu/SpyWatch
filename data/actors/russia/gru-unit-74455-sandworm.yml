@@ -22,7 +22,7 @@ sectors:
   - transportation
 analytic_notes:
   - Keep Sandworm distinct from GRU Unit 29155 and APT28 unless a source explicitly links reporting.
-  - Do not infer current targeting without fresh sources.
+  - Do not infer current focus without fresh sources.
 defensive_notes:
   - Emphasize resilience, tested recovery, identity controls, and monitoring of administrative pathways.
   - Use public agency guidance and vendor reports for defensive planning.

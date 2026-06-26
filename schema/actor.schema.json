@@ -3,20 +3,7 @@
   "$id": "https://github.com/Personfu/SpyWatch/schema/actor.schema.json",
   "title": "SpyWatch Actor Profile",
   "type": "object",
-  "required": [
-    "id",
-    "name",
-    "country",
-    "sponsor",
-    "actor_type",
-    "aliases",
-    "confidence",
-    "summary",
-    "sectors",
-    "defensive_notes",
-    "sources",
-    "last_reviewed"
-  ],
+  "required": ["id", "name", "country", "sponsor", "actor_type", "aliases", "confidence", "summary", "sectors", "defensive_notes", "sources", "last_reviewed"],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$" },
     "name": { "type": "string" },
@@ -39,6 +26,7 @@
       }
     },
     "sectors": { "type": "array", "items": { "type": "string" } },
+    "analytic_notes": { "type": "array", "items": { "type": "string" } },
     "defensive_notes": { "type": "array", "items": { "type": "string" } },
     "sources": {
       "type": "array",

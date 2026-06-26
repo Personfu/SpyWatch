@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Validate SpyWatch actor YAML profiles.
-
-This is intentionally lightweight and dependency-free except for PyYAML.
-Install locally with: python -m pip install pyyaml
-"""
+"""Validate SpyWatch actor YAML profiles."""
 
 from __future__ import annotations
 
@@ -12,34 +8,21 @@ from pathlib import Path
 
 try:
     import yaml
-except ImportError:  # pragma: no cover
+except ImportError:
     print("Missing dependency: pyyaml. Install with: python -m pip install pyyaml", file=sys.stderr)
     raise
 
 ROOT = Path(__file__).resolve().parents[1]
 ACTOR_DIR = ROOT / "data" / "actors"
 REQUIRED = {
-    "id",
-    "name",
-    "country",
-    "sponsor",
-    "actor_type",
-    "aliases",
-    "confidence",
-    "summary",
-    "sectors",
-    "defensive_notes",
-    "sources",
-    "last_reviewed",
+    "id", "name", "country", "sponsor", "actor_type", "aliases",
+    "confidence", "summary", "sectors", "defensive_notes", "sources", "last_reviewed",
 }
 CONFIDENCE = {"confirmed", "high", "medium", "low", "disputed"}
 
 
 def iter_profiles() -> list[Path]:
-    return sorted(
-        p for p in ACTOR_DIR.rglob("*.yml")
-        if p.name != "index.yml"
-    )
+    return sorted(p for p in ACTOR_DIR.rglob("*.yml") if p.name != "index.yml")
 
 
 def validate_file(path: Path) -> list[str]:

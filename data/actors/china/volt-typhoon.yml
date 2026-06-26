@@ -1,0 +1,36 @@
+id: cn-volt-typhoon
+name: Volt Typhoon
+country: China
+sponsor: PRC state-aligned reporting
+actor_type: state-aligned cyber
+aliases:
+  - Volt Typhoon
+  - Vanguard Panda
+confidence: high
+summary: >-
+  Volt Typhoon is a China-linked actor name in public reporting. Government advisories emphasize infrastructure-risk concerns and the need for broad defensive readiness.
+public_reporting:
+  - title: Public infrastructure-risk advisories
+    year: 2023-2024
+    note: Allied agencies published guidance for organizations to improve visibility, identity security, and incident-response readiness.
+sectors:
+  - communications
+  - energy
+  - water
+  - transportation
+  - government
+analytic_notes:
+  - Treat all infrastructure-sector claims as source-bound and time-bound.
+  - Keep defensive guidance focused on resilience and verification.
+defensive_notes:
+  - Prioritize asset inventory, identity hardening, network visibility, secure administration, logging, and tabletop exercises.
+sources:
+  - title: People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection
+    publisher: CISA
+    date: 2023-05-24
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a
+  - title: PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure
+    publisher: CISA
+    date: 2024-02-07
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a
+last_reviewed: 2026-06-25

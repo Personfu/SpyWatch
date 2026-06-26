@@ -1,0 +1,37 @@
+id: kp-kimsuky
+name: Kimsuky
+country: North Korea
+sponsor: DPRK public reporting
+actor_type: state-aligned cyber
+aliases:
+  - Kimsuky
+  - Velvet Chollima
+  - Thallium
+  - Emerald Sleet
+confidence: high
+summary: >-
+  Kimsuky is a North Korea-linked actor cluster in public reporting. It is commonly discussed in relation to policy, defense, research, and regional security communities.
+public_reporting:
+  - title: Public advisory reporting
+    year: 2020-present
+    note: Public sources discuss Kimsuky activity involving think tanks, research bodies, and policy communities.
+sectors:
+  - policy
+  - research
+  - defense
+  - government
+  - journalism
+analytic_notes:
+  - Keep Kimsuky separate from Lazarus and Andariel unless a source explicitly connects the activity.
+  - Track aliases by publisher and date.
+defensive_notes:
+  - Emphasize account security, identity verification, safe document handling, and high-risk-user training.
+sources:
+  - title: Kimsuky
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0094/
+  - title: Fast Facts: Kimsuky
+    publisher: CISA
+    date: 2020-10-27
+    url: https://www.cisa.gov/news-events/alerts/2020/10/27/kimsuky-apt-group
+last_reviewed: 2026-06-25

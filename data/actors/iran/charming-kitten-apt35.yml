@@ -23,7 +23,7 @@ sectors:
   - policy organizations
 analytic_notes:
   - Track aliases carefully because vendor naming differs.
-  - Avoid repeating private details about individual victims unless already central to public legal reporting.
+  - Avoid repeating private details about individual victims unless central to public legal reporting.
 defensive_notes:
   - Emphasize account protection, strong authentication, travel security, and verification of interview or conference invitations.
 sources:

@@ -11,7 +11,7 @@ summary: >-
 public_reporting:
   - title: Cloud and email access public reporting
     year: 2023
-    note: Public reporting focused on targeted access to email environments and follow-on risk to government organizations.
+    note: Public reporting focused on email environments and follow-on risk to government organizations.
 sectors:
   - government
   - diplomatic

@@ -1,52 +1,111 @@
 # SpyWatch
 
-SpyWatch is a defensive public-source intelligence library for studying foreign intelligence activity, cyber threat groups, hybrid operations, and eCrime ecosystems.
+SpyWatch is a defensive public-source intelligence library for studying foreign intelligence services, state-aligned cyber groups, hybrid operations, deep-cover networks, and major eCrime ecosystems.
 
-This repository is intended for education, journalism, policy research, and security defense. It organizes public reporting into structured profiles with aliases, country alignment, known public reporting, confidence notes, and defensive lessons.
+It is built for students, defenders, journalists, researchers, and policy teams who need structured context without turning that research into an offensive playbook.
 
-## Scope
+## Mission
 
-SpyWatch tracks:
+SpyWatch organizes public reporting into clean, sourced profiles:
 
-- state intelligence and military cyber units;
-- state-aligned cyber espionage clusters;
-- hybrid warfare and influence operators;
-- major eCrime groups;
-- historic intelligence organizations when they help explain modern patterns.
+- who the actor is alleged or assessed to be;
+- who tracks it under what names;
+- what country, service, or ecosystem it is associated with;
+- what sectors appear in public reporting;
+- what historical cases define the actor;
+- what defenders should learn from the case;
+- how confident the public record is.
 
-## Safety boundary
+## Safety line
 
-SpyWatch is a research catalog, not an attack manual. Content should remain high-level, sourced, defensive, and non-operational.
-
-Do not add private personal information, unverified accusations, target lists, intrusion instructions, credential collection guidance, or executable harmful content.
+SpyWatch is a catalog and teaching library. It does not include private personal information, live target lists, credential collection guidance, intrusion instructions, or executable harmful material.
 
 ## Repository map
 
 ```text
-docs/                  Research policy, taxonomy, and watchlist
-schema/                Machine-readable actor profile schema
-data/actors/           YAML profiles for public-source actor research
-prompts/               Safe AI-assisted enrichment prompts
-scripts/               Validation and index tools
-.github/workflows/     CI validation
+.github/workflows/validate.yml        CI validation
+CONTRIBUTING.md                       contribution rules
+docs/source-policy.md                 source standards and confidence rules
+docs/taxonomy.md                      actor taxonomy
+docs/watchlist.md                     global research backlog
+docs/illegals-program.md              deep-cover illegals case-study framework
+docs/research-playbook.md             safe research workflow
+docs/defender-briefings.md            defensive briefing templates
+schema/actor.schema.json              actor profile schema
+data/actors/index.yml                 actor index
+data/actors/*/*.yml                   actor profiles
+prompts/openai-enrichment.md          safe enrichment workflow
+scripts/build_index.py                rebuilds the actor index
+scripts/validate_actors.py            validates actor YAML
 ```
 
-## Current build plan
+## Seed profile coverage
 
-1. Define the profile schema.
-2. Add a global watchlist.
-3. Seed actor profiles for Russia, China, Iran, and North Korea.
-4. Add validation scripts.
-5. Add continuous validation through GitHub Actions.
-6. Expand each profile with sourced, defensive context over time.
+### Russia
 
-## Local validation
+- GRU Unit 29155 / Cadet Blizzard / Ember Bear / UNC2589
+- GRU Unit 74455 / Sandworm
+- GRU Unit 26165 / APT28 / Fancy Bear
+- SVR APT29 / Cozy Bear / Midnight Blizzard
+- Star Blizzard / Callisto Group
+- Turla / Snake
+
+### China
+
+- APT41 / Double Dragon
+- PLA Unit 61398 / APT1
+- Storm-0558
+- Volt Typhoon
+- APT10 / Stone Panda
+
+### Iran
+
+- MuddyWater / Mango Sandstorm
+- Charming Kitten / APT35
+- APT33 / Elfin
+- APT34 / OilRig
+
+### North Korea
+
+- Lazarus Group / Hidden Cobra
+- APT38
+- Kimsuky
+- Andariel
+
+## Local use
 
 ```bash
+python -m pip install pyyaml
 python scripts/validate_actors.py
 python scripts/build_index.py
 ```
 
-## Attribution note
+## Profile model
 
-Attribution is probabilistic. Different governments and vendors use different names for the same or overlapping clusters. SpyWatch therefore separates public claims, aliases, confidence levels, and analytic notes.
+Each actor profile uses YAML with a shared schema. Example fields:
+
+```yaml
+id: ru-gru-29155
+name: GRU Unit 29155
+country: Russia
+sponsor: GRU / Main Directorate of the General Staff
+actor_type: military intelligence / hybrid operations
+aliases:
+  - Cadet Blizzard
+confidence: high
+summary: Public-source summary.
+sectors:
+  - government
+  - infrastructure
+defensive_notes:
+  - Defensive lessons only.
+sources:
+  - title: Public source title
+    publisher: Publisher
+    url: https://example.org
+last_reviewed: 2026-06-25
+```
+
+## Research posture
+
+Attribution is probabilistic. Governments, vendors, journalists, and researchers may use different names for the same or overlapping clusters. SpyWatch separates facts, claims, aliases, confidence, and analysis.

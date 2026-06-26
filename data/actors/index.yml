@@ -1,19 +1,62 @@
+note: Generated-style index for initial SpyWatch profiles.
 actors:
   - id: ru-gru-29155
     name: GRU Unit 29155
     path: data/actors/russia/gru-unit-29155.yml
+    country: Russia
+    confidence: high
   - id: ru-gru-74455-sandworm
     name: GRU Unit 74455 / Sandworm
     path: data/actors/russia/gru-unit-74455-sandworm.yml
+    country: Russia
+    confidence: high
   - id: ru-gru-26165-apt28
     name: GRU Unit 26165 / APT28
     path: data/actors/russia/gru-unit-26165-apt28.yml
+    country: Russia
+    confidence: high
+  - id: ru-svr-apt29
+    name: SVR APT29 / Cozy Bear
+    path: data/actors/russia/svr-apt29-cozy-bear.yml
+    country: Russia
+    confidence: high
   - id: cn-apt41
     name: APT41 / Double Dragon
     path: data/actors/china/apt41-double-dragon.yml
+    country: China
+    confidence: high
+  - id: cn-pla-unit-61398-apt1
+    name: PLA Unit 61398 / APT1
+    path: data/actors/china/pla-unit-61398-apt1.yml
+    country: China
+    confidence: high
+  - id: cn-storm-0558
+    name: Storm-0558
+    path: data/actors/china/storm-0558.yml
+    country: China
+    confidence: high
+  - id: cn-volt-typhoon
+    name: Volt Typhoon
+    path: data/actors/china/volt-typhoon.yml
+    country: China
+    confidence: high
   - id: ir-muddywater
     name: MuddyWater
     path: data/actors/iran/muddywater.yml
+    country: Iran
+    confidence: high
+  - id: ir-charming-kitten-apt35
+    name: Charming Kitten / APT35
+    path: data/actors/iran/charming-kitten-apt35.yml
+    country: Iran
+    confidence: high
   - id: kp-lazarus-group
     name: Lazarus Group
     path: data/actors/north-korea/lazarus-group.yml
+    country: North Korea
+    confidence: high
+  - id: kp-kimsuky
+    name: Kimsuky
+    path: data/actors/north-korea/kimsuky.yml
+    country: North Korea
+    confidence: high

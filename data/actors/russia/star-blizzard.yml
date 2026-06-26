@@ -1,0 +1,34 @@
+id: ru-star-blizzard
+name: Star Blizzard
+country: Russia
+sponsor: Russia-linked public reporting
+actor_type: state-aligned cyber
+aliases:
+  - Star Blizzard
+  - Callisto Group
+  - SEABORGIUM
+  - ColdRiver
+confidence: high
+summary: >-
+  Star Blizzard is a Russia-linked actor cluster in public reporting. It is commonly discussed in relation to political, research, media, and civil-society communities.
+public_reporting:
+  - title: Public reporting on political and civil-society approaches
+    year: 2022-present
+    note: Public sources discuss persistent social and identity-focused activity against high-interest individuals and organizations.
+sectors:
+  - government
+  - politics
+  - journalism
+  - academia
+  - civil society
+analytic_notes:
+  - Keep vendor aliases source-bound and dated.
+  - Avoid publishing victim personal details.
+defensive_notes:
+  - Emphasize account protection, verification of unexpected outreach, secure recovery options, and high-risk-user training.
+sources:
+  - title: Russian FSB Cyber Actor Star Blizzard Continues Worldwide Spear-phishing Campaigns
+    publisher: CISA
+    date: 2023-12-07
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-341a
+last_reviewed: 2026-06-25

@@ -1,4 +1,4 @@
-# SpyWatch Taxonomy
+# Taxonomy
 
 SpyWatch classifies public-source actor research by sponsorship, mission, behavior, and confidence.
 
@@ -21,19 +21,11 @@ SpyWatch classifies public-source actor research by sponsorship, mission, behavi
 - `disruption`
 - `financially-motivated`
 - `supply-chain-risk`
-- `critical-infrastructure-risk`
-- `diplomatic-targeting`
-- `defense-sector-targeting`
-- `journalist-targeting`
-- `diaspora-targeting`
-
-## Confidence tags
-
-- `confirmed`
-- `high`
-- `medium`
-- `low`
-- `disputed`
+- `infrastructure-risk`
+- `diplomatic-focus`
+- `defense-sector-focus`
+- `journalist-focus`
+- `diaspora-focus`
 
 ## Naming rule
 

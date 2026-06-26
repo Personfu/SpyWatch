@@ -10,7 +10,7 @@ aliases:
   - Sofacy
 confidence: high
 summary: >-
-  APT28 is a long-running Russian military cyber actor cluster in public reporting. It is commonly associated with political, defense, government, and diplomatic targeting.
+  APT28 is a long-running Russian military cyber actor cluster in public reporting. It is commonly associated with political, defense, government, and diplomatic contexts.
 public_reporting:
   - title: Long-running public attribution reporting
     year: 2014-present

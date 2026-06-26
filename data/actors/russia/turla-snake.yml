@@ -1,0 +1,32 @@
+id: ru-turla-snake
+name: Turla / Snake
+country: Russia
+sponsor: Russia-linked public reporting
+actor_type: state-aligned cyber
+aliases:
+  - Turla
+  - Snake
+  - Venomous Bear
+  - Waterbug
+confidence: high
+summary: >-
+  Turla is a long-running Russia-linked actor family in public reporting. It is often discussed in relation to espionage-oriented activity involving government and diplomatic communities.
+public_reporting:
+  - title: Long-running public reporting
+    year: 2000s-present
+    note: Government and vendor sources have discussed Turla under several names.
+sectors:
+  - government
+  - diplomatic
+  - defense
+  - research
+analytic_notes:
+  - Treat historic reporting as long-running context and review current sources separately.
+  - Keep Turla distinct from other Russia-linked actor clusters unless sources connect them.
+defensive_notes:
+  - Emphasize long-term logging, asset governance, identity review, and careful source comparison.
+sources:
+  - title: Turla
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0010/
+last_reviewed: 2026-06-25
