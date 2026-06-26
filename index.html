@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SpyWatch Public Case Archive</title>
+  <meta name="description" content="SpyWatch is a defensive public-source intelligence archive for studying intelligence-history cases, foreign services, aliases, confidence labels, and defender lessons." />
+  <link rel="stylesheet" href="assets/spywatch.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#cases">Cases</a>
+      <a href="#names">Public names</a>
+      <a href="#method">Method</a>
+      <a href="docs/illegals-operator-roster.md">Roster notes</a>
+      <a href="docs/source-policy.md">Source policy</a>
+    </nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">SpyWatch / public-source intelligence history</p>
+        <h1>Public case archive for intelligence-history research.</h1>
+        <p class="lede">A defensive, source-first tracker for known public cases: illegals programs, cover legends, aliases, historical actions, confidence levels, and defender lessons. This is not a live people-tracking system and does not collect private addresses, scraped photos, credentials, or targeting data.</p>
+        <div class="hero-actions">
+          <a class="button" href="#cases">Open archive</a>
+          <a class="button ghost" href="data/public-case-archive.json">View JSON</a>
+        </div>
+      </div>
+      <aside class="glass-card status-panel" aria-label="Archive status">
+        <span class="pulse"></span>
+        <h2>Archive status</h2>
+        <dl>
+          <div><dt>Posture</dt><dd>Defensive / educational</dd></div>
+          <div><dt>Data</dt><dd>Public reporting only</dd></div>
+          <div><dt>Exclusions</dt><dd>No private DOB/photo harvesting</dd></div>
+          <div><dt>Confidence</dt><dd>Required per record</dd></div>
+        </dl>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section id="controls" class="control-panel" aria-label="Case filters">
+      <label>
+        Search archive
+        <input id="searchInput" type="search" placeholder="Try: GRU, SVR, Maria Adela, Slovenia, ICC, Norway..." />
+      </label>
+      <label>
+        Service / lane
+        <select id="serviceFilter">
+          <option value="all">All</option>
+        </select>
+      </label>
+      <label>
+        Confidence
+        <select id="confidenceFilter">
+          <option value="all">All</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="section-head" id="cases">
+      <p class="eyebrow">Case studies</p>
+      <h2>Expanded public cases</h2>
+      <p>Each card separates public names, source links, story beats, and defensive lessons. Contested cases remain marked as disputed rather than treated as confirmed.</p>
+    </section>
+    <section id="caseGrid" class="case-grid" aria-live="polite"></section>
+
+    <section class="section-head" id="names">
+      <p class="eyebrow">Public names index</p>
+      <h2>Aliases and public identities</h2>
+      <p>This index is limited to names appearing in public reporting or official records. It intentionally avoids private addresses, family targeting details, scraped images, and birth-date harvesting.</p>
+    </section>
+    <section id="nameIndex" class="name-index"></section>
+
+    <section class="section-head" id="method">
+      <p class="eyebrow">Research method</p>
+      <h2>How SpyWatch should grow</h2>
+      <div class="method-grid">
+        <article>
+          <h3>1. Source chain</h3>
+          <p>Start with official records, court documents, agency releases, and established investigative reporting. Mark encyclopedia pages as summaries, not primary proof.</p>
+        </article>
+        <article>
+          <h3>2. Confidence labels</h3>
+          <p>Separate confirmed, high-confidence, medium-confidence, disputed, and low-confidence details. Do not flatten allegations into facts.</p>
+        </article>
+        <article>
+          <h3>3. Defender lesson</h3>
+          <p>Every case needs a practical defensive takeaway: identity assurance, access governance, insider-risk process, travel-pattern awareness, or research-security hygiene.</p>
+        </article>
+        <article>
+          <h3>4. Safety boundary</h3>
+          <p>Do not publish private addresses, private family data, scraped dating profiles, live surveillance methods, intrusion steps, or operational targeting instructions.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>SpyWatch is a public-source defensive research archive. Attribution is probabilistic; claims must stay sourced and labeled.</p>
+  </footer>
+
+  <script src="assets/spywatch.js"></script>
+</body>
+</html>
