@@ -1,0 +1,37 @@
+id: ru-gru-74455-sandworm
+name: GRU Unit 74455 / Sandworm
+country: Russia
+sponsor: GRU
+actor_type: military cyber
+aliases:
+  - Sandworm
+  - Voodoo Bear
+  - Iridium
+confidence: high
+summary: >-
+  Sandworm is a widely reported Russian military cyber actor cluster. Public reporting associates it with high-impact activity involving Ukraine, government organizations, media, and infrastructure sectors.
+public_reporting:
+  - title: Ukraine-focused public reporting
+    year: 2015-2022
+    note: Public sources associate Sandworm with multiple high-impact incidents involving Ukrainian organizations.
+sectors:
+  - government
+  - energy
+  - infrastructure
+  - media
+  - transportation
+analytic_notes:
+  - Keep Sandworm distinct from GRU Unit 29155 and APT28 unless a source explicitly links reporting.
+  - Do not infer current targeting without fresh sources.
+defensive_notes:
+  - Emphasize resilience, tested recovery, identity controls, and monitoring of administrative pathways.
+  - Use public agency guidance and vendor reports for defensive planning.
+sources:
+  - title: CISA advisory library entry for Ukraine-related reporting
+    publisher: CISA
+    date: 2022-04-28
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-057a
+  - title: Sandworm Team
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0034/
+last_reviewed: 2026-06-25
