@@ -21,6 +21,18 @@ Current archive coverage includes:
 
 The archive is intentionally source-first and defensive. It includes public case names, aliases, story beats, confidence labels, and defender lessons. It intentionally excludes private addresses, private family targeting details, scraped photos, live target tracking, credential material, intrusion instructions, and birth-date harvesting.
 
+## Vendor alias mapping
+
+SpyWatch now includes CrowdStrike-style vendor alias mapping appendices. These files connect common public names to real units or services only when official records or strong public reporting support the connection.
+
+- `docs/vendor-alias-mapping.md` - naming guide and priority crosswalk
+- `docs/unit-mapping-russia.md` - Bear-family / Russia mapping appendix
+- `docs/unit-mapping-china.md` - Panda-family / China mapping appendix
+- `docs/unit-mapping-dprk.md` - Chollima-family / North Korea mapping appendix
+- `docs/unit-mapping-iran.md` - Kitten-family / Iran mapping appendix
+
+The key rule: vendor names are useful search labels, not proof by themselves. Unit attribution must be sourced.
+
 ## New expansion files
 
 - `docs/casefiles/README.md` - casefile index and expansion queue
@@ -55,6 +67,11 @@ index.html                                      static public archive UI
 assets/site.css                                 static archive styling
 data/public-case-archive.json                   public case archive dataset
 data/timelines/public-intelligence-cases.json   public intelligence timeline
+docs/vendor-alias-mapping.md                    vendor-name normalization guide
+docs/unit-mapping-russia.md                     Russia unit mapping appendix
+docs/unit-mapping-china.md                      China unit mapping appendix
+docs/unit-mapping-dprk.md                       DPRK unit mapping appendix
+docs/unit-mapping-iran.md                       Iran unit mapping appendix
 docs/casefiles/README.md                        casefile index
 docs/casefiles/*.md                             expanded public casefiles
 docs/source-standards-expanded.md               expanded source standards
