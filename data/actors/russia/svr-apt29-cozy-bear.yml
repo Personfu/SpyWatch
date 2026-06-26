@@ -1,0 +1,37 @@
+id: ru-svr-apt29
+name: SVR APT29 / Cozy Bear
+country: Russia
+sponsor: SVR
+actor_type: foreign intelligence cyber
+aliases:
+  - APT29
+  - Cozy Bear
+  - Midnight Blizzard
+  - Nobelium
+confidence: high
+summary: >-
+  APT29 is a widely reported Russian foreign intelligence actor cluster. Public reporting emphasizes government, diplomatic, research, and cloud-service related activity.
+public_reporting:
+  - title: Public reporting on government and cloud-focused activity
+    year: 2020-present
+    note: Multiple public sources discuss APT29 under vendor-specific aliases.
+sectors:
+  - government
+  - diplomatic
+  - research
+  - technology
+  - cloud services
+analytic_notes:
+  - Keep cloud-service reporting tied to the source that made the claim.
+  - Avoid merging all Russian intelligence reporting into a single actor.
+defensive_notes:
+  - Emphasize identity hardening, conditional access review, logging, administrative-account review, and cloud audit coverage.
+sources:
+  - title: APT29
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0016/
+  - title: Russian SVR targets U.S. and allied networks
+    publisher: CISA
+    date: 2021-04-15
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-116a
+last_reviewed: 2026-06-25
