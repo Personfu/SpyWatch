@@ -1,0 +1,37 @@
+id: ir-charming-kitten-apt35
+name: Charming Kitten / APT35
+country: Iran
+sponsor: Iranian public reporting
+actor_type: state-aligned cyber
+aliases:
+  - Charming Kitten
+  - APT35
+  - Mint Sandstorm
+  - Phosphorus
+confidence: high
+summary: >-
+  Charming Kitten is an Iran-linked actor cluster in public reporting. It is commonly associated with attention toward journalists, academics, activists, political figures, and policy communities.
+public_reporting:
+  - title: Civil society and political reporting
+    year: 2019-present
+    note: Public reporting discusses social approaches toward high-interest individuals and organizations.
+sectors:
+  - civil society
+  - journalism
+  - academia
+  - political organizations
+  - policy organizations
+analytic_notes:
+  - Track aliases carefully because vendor naming differs.
+  - Avoid repeating private details about individual victims unless already central to public legal reporting.
+defensive_notes:
+  - Emphasize account protection, strong authentication, travel security, and verification of interview or conference invitations.
+sources:
+  - title: Charming Kitten
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0059/
+  - title: Mitigating Cyber Threats with Limited Resources
+    publisher: CISA
+    date: 2024-05-14
+    url: https://www.cisa.gov/resources-tools/resources/mitigating-cyber-threats-limited-resources-guidance-civil-society
+last_reviewed: 2026-06-25
