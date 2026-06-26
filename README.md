@@ -4,6 +4,21 @@ SpyWatch is a defensive public-source intelligence library for studying foreign 
 
 It is built for students, defenders, journalists, researchers, and policy teams who need structured context without turning that research into an offensive playbook.
 
+## Public archive UI
+
+This repo now includes a static public case archive at `index.html` backed by `data/public-case-archive.json`.
+
+Current archive coverage includes:
+
+- Operation Ghost Stories / 2010 Russian Illegals Program
+- Maria Adela Kuhfeldt Rivera / Olga Kolobova
+- Artem Dultsev and Anna Dultseva / Slovenia Argentina-cover case
+- Sergey Cherkasov / Victor Muller Ferreira
+- Mikhail Mikushin / Jose Assis Giammaria
+- Pablo Gonzalez / Pavel Rubtsov, marked as disputed
+
+The archive is intentionally source-first and defensive. It includes public case names, aliases, story beats, confidence labels, and defender lessons. It intentionally excludes private addresses, private family targeting details, scraped photos, live target tracking, credential material, intrusion instructions, and birth-date harvesting.
+
 ## Mission
 
 SpyWatch organizes public reporting into clean, sourced profiles:
@@ -20,15 +35,21 @@ SpyWatch organizes public reporting into clean, sourced profiles:
 
 SpyWatch is a catalog and teaching library. It does not include private personal information, live target lists, credential collection guidance, intrusion instructions, or executable harmful material.
 
+For photographs or images, link to official case pages, court exhibits, reputable news image pages, or public-media repositories. Do not scrape or republish private profile photos.
+
 ## Repository map
 
 ```text
+index.html                            static public archive UI
+assets/site.css                       static archive styling
+data/public-case-archive.json         public case archive dataset
 .github/workflows/validate.yml        CI validation
 CONTRIBUTING.md                       contribution rules
 docs/source-policy.md                 source standards and confidence rules
 docs/taxonomy.md                      actor taxonomy
 docs/watchlist.md                     global research backlog
 docs/illegals-program.md              deep-cover illegals case-study framework
+docs/illegals-operator-roster.md      safe roster expansion notes
 docs/research-playbook.md             safe research workflow
 docs/defender-briefings.md            defensive briefing templates
 schema/actor.schema.json              actor profile schema
