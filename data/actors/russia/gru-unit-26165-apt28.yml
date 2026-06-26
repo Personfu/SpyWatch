@@ -1,0 +1,38 @@
+id: ru-gru-26165-apt28
+name: GRU Unit 26165 / APT28
+country: Russia
+sponsor: GRU
+actor_type: military cyber
+aliases:
+  - APT28
+  - Fancy Bear
+  - Forest Blizzard
+  - Sofacy
+confidence: high
+summary: >-
+  APT28 is a long-running Russian military cyber actor cluster in public reporting. It is commonly associated with political, defense, government, and diplomatic targeting.
+public_reporting:
+  - title: Long-running public attribution reporting
+    year: 2014-present
+    note: Government and vendor sources have repeatedly discussed APT28 under several aliases.
+sectors:
+  - government
+  - defense
+  - diplomatic
+  - political organizations
+  - media
+analytic_notes:
+  - Vendor aliases overlap across time; record the source and date for every alias.
+  - Separate APT28 reporting from Sandworm and Unit 29155 unless a source explicitly links them.
+defensive_notes:
+  - Focus on email security, identity protection, endpoint visibility, and executive-account monitoring.
+  - Include public-sector advisories in defender reading lists.
+sources:
+  - title: APT28
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0007/
+  - title: Russian GRU Conducting Global Brute Force Campaign
+    publisher: CISA
+    date: 2021-07-01
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-200a
+last_reviewed: 2026-06-25
