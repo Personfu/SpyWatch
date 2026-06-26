@@ -1,0 +1,38 @@
+id: ir-muddywater
+name: MuddyWater
+country: Iran
+sponsor: Iranian public reporting
+actor_type: state-aligned cyber
+aliases:
+  - MuddyWater
+  - Mango Sandstorm
+  - Static Kitten
+  - Seedworm
+  - Mercury
+confidence: high
+summary: >-
+  MuddyWater is an Iran-linked actor cluster. Public government and vendor reporting associates it with intelligence collection across government, telecommunications, defense, and regional organizations.
+public_reporting:
+  - title: Joint public advisory reporting
+    year: 2022
+    note: Public agencies described MuddyWater as an Iranian government-sponsored actor.
+sectors:
+  - government
+  - telecommunications
+  - defense
+  - energy
+  - regional organizations
+analytic_notes:
+  - Alias names vary across vendors and time.
+  - Keep sponsor reporting tied to public-source claims.
+defensive_notes:
+  - Emphasize email filtering, endpoint monitoring, remote-access governance, and user awareness for targeted social approaches.
+sources:
+  - title: Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks
+    publisher: CISA
+    date: 2022-02-24
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-055a
+  - title: MuddyWater
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0069/
+last_reviewed: 2026-06-25
