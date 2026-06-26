@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Personfu/SpyWatch/schema/actor.schema.json",
+  "title": "SpyWatch Actor Profile",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "country",
+    "sponsor",
+    "actor_type",
+    "aliases",
+    "confidence",
+    "summary",
+    "sectors",
+    "defensive_notes",
+    "sources",
+    "last_reviewed"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "country": { "type": "string" },
+    "sponsor": { "type": "string" },
+    "actor_type": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "type": "string", "enum": ["confirmed", "high", "medium", "low", "disputed"] },
+    "summary": { "type": "string" },
+    "public_reporting": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "year", "note"],
+        "properties": {
+          "title": { "type": "string" },
+          "year": { "type": ["integer", "string"] },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "sectors": { "type": "array", "items": { "type": "string" } },
+    "defensive_notes": { "type": "array", "items": { "type": "string" } },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "publisher": { "type": "string" },
+          "date": { "type": "string" }
+        }
+      }
+    },
+    "last_reviewed": { "type": "string" }
+  }
+}
