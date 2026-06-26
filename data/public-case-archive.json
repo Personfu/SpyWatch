@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "name": "SpyWatch Public Case Archive",
+    "version": "0.2.0",
+    "last_reviewed": "2026-06-26",
+    "safety": "Public-source historical and defensive education database. It intentionally excludes private addresses, live target lists, credential material, surveillance instructions, birth-date harvesting, and scraped personal photos.",
+    "note": "Use public source pages for images rather than copying or scraping private profiles. Every allegation needs a source and a confidence label."
+  },
+  "case_studies": [
+    {
+      "id": "case-ghost-stories-2010",
+      "title": "Operation Ghost Stories / Russian Illegals Program",
+      "years": "1990s-2010",
+      "service": "SVR",
+      "status": "exchanged",
+      "summary": "FBI counterintelligence investigation into long-term SVR deep-cover activity in the United States. Ten people were arrested in June 2010, later pleaded guilty to acting as unregistered foreign agents, and were exchanged in Vienna on 2010-07-09.",
+      "public_names": ["Anna Chapman", "Mikhail Semenko", "Vladimir Guryev / Richard Murphy", "Lidiya Guryeva / Cynthia Murphy", "Andrey Bezrukov / Donald Heathfield", "Elena Vavilova / Tracey Foley", "Mikhail Kutsik / Michael Zottoli", "Natalia Pereverzeva / Patricia Mills", "Mikhail Vasenkov / Juan Lazaro", "Vicky Pelaez", "Christopher Metsos"],
+      "story_beats": [
+        "Long-term legends emphasized ordinary suburban, academic, business, and social access.",
+        "The case exposed how identity records, funds, communications, travel, and social access can converge into a counterintelligence picture.",
+        "FBI public releases make this one of the most teachable modern illegal-cover cases."
+      ],
+      "defender_lesson": "Counterintelligence value often comes from patient correlation, not a single dramatic artifact.",
+      "sources": [
+        {"title": "Operation Ghost Stories: Inside the Russian Spy Case", "publisher": "FBI", "url": "https://www.fbi.gov/news/stories/operation-ghost-stories-inside-the-russian-spy-case"},
+        {"title": "Ten Alleged Secret Agents Arrested in the United States", "publisher": "U.S. Department of Justice", "url": "https://www.justice.gov/opa/pr/ten-alleged-secret-agents-arrested-united-states"},
+        {"title": "Illegals Program overview", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/Illegals_Program"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "case-maria-adela-olga-kolobova",
+      "title": "Maria Adela Kuhfeldt Rivera / Olga Kolobova",
+      "years": "2005-2018 public legend; identified in 2022 reporting",
+      "service": "GRU reported",
+      "status": "returned to Russia",
+      "summary": "Public reporting describes a GRU illegal operating under a Peruvian socialite and jewelry-designer legend in Naples, Italy, near NATO social circles.",
+      "public_names": ["Maria Adela Kuhfeldt Rivera", "Olga Kolobova"],
+      "story_beats": [
+        "The cover story involved Peruvian birth, a German father, and abandonment in Moscow during the 1980 Olympics.",
+        "Investigators reported that a forged Peruvian document trail collapsed after church-record checks.",
+        "Public investigators connected the cover identity to the reported real identity through passport-range analysis, travel traces, social media, a cat named Louisa, pet microchip registration, and dating-profile evidence.",
+        "The jewelry brand and Lions Club role created plausible access to wealthy, military-adjacent, diplomatic, and social contacts."
+      ],
+      "defender_lesson": "Legends often fail through small true attachments: pets, habits, old regional records, platform reuse, and personal relationships.",
+      "sources": [
+        {"title": "Socialite, Widow, Jeweller, Spy", "publisher": "Bellingcat / The Insider / Der Spiegel / La Repubblica reporting", "url": "https://www.bellingcat.com/news/2022/08/25/socialite-widow-jeweller-spy-how-a-gru-agent-charmed-her-way-into-nato-circles-in-italy/"},
+        {"title": "User-provided research transcript", "publisher": "Conversation attachment", "url": "Pasted text(56).txt"},
+        {"title": "Investigation of Maria Adela summary", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/Bellingcat#Investigation_of_Maria_Adela"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "case-dultsev-slovenia-2022",
+      "title": "Artem Dultsev and Anna Dultseva / Argentina-cover family in Slovenia",
+      "years": "2010s-2024",
+      "service": "SVR reported",
+      "status": "released to Russia in 2024 prisoner exchange",
+      "summary": "Two Russian deep-cover officers publicly identified as Artem Dultsev and Anna Dultseva allegedly lived as an Argentine couple in Slovenia with children raised in the cover language and identity.",
+      "public_names": ["Artem Dultsev / Ludwig Gisch", "Anna Dultseva / Maria Mayer"],
+      "story_beats": [
+        "Family presentation created deep civilian legitimacy through home, children, business activity, and local routine.",
+        "The case became globally visible after the 2024 prisoner exchange.",
+        "Public reporting stated the children learned they were Russian only during the transfer back to Moscow."
+      ],
+      "defender_lesson": "Family legends can create powerful cover but widen the footprint through schools, businesses, bureaucracy, languages, travel, and custody decisions.",
+      "sources": [
+        {"title": "Russian spies sentenced in Slovenia after pleading guilty", "publisher": "The Guardian", "url": "https://www.theguardian.com/world/article/2024/jul/31/russian-spies-sentenced-slovenia-court-prisoner-exchanges"},
+        {"title": "Putin greeted children of freed sleeper agents in Spanish", "publisher": "Business Insider", "url": "https://www.businessinsider.com/putin-greeted-russian-sleeper-agents-children-in-spanish-2024-8"},
+        {"title": "2024 Ankara prisoner exchange", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "case-cherkasov-icc-2022",
+      "title": "Sergey Cherkasov / Victor Muller Ferreira",
+      "years": "2010s-2022",
+      "service": "GRU alleged / charged by U.S.",
+      "status": "convicted in Brazil on document charges; U.S. indictment public",
+      "summary": "A suspected GRU illegal used a Brazilian identity and academic path before Dutch authorities publicly said he attempted to enter the International Criminal Court as an intern under the name Victor Muller Ferreira.",
+      "public_names": ["Sergey Cherkasov", "Victor Muller Ferreira"],
+      "story_beats": [
+        "Academic credentials and international-relations study created plausible proximity to policy and legal institutions.",
+        "Public investigators described contradictions and document-fraud indicators.",
+        "The case illustrates how universities and internships can become access routes into institutions handling sensitive conflict and war-crimes material."
+      ],
+      "defender_lesson": "Sensitive institutions should validate identity history, document chains, and reference consistency without treating nationality itself as suspicion.",
+      "sources": [
+        {"title": "Russian GRU Spy Tried to Infiltrate International Criminal Court", "publisher": "BBC", "url": "https://www.bbc.com/news/world-europe-61831961"},
+        {"title": "Russian national charged as illegal agent", "publisher": "U.S. Department of Justice", "url": "https://www.justice.gov/opa/pr/russian-national-charged-acting-illegal-agent-russian-intelligence-service-united-states"},
+        {"title": "Sergey Vladimirovich Cherkasov summary", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/Sergey_Vladimirovich_Cherkasov"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "case-mikushin-norway-2022",
+      "title": "Mikhail Mikushin / Jose Assis Giammaria",
+      "years": "2010s-2024",
+      "service": "GRU alleged / reported",
+      "status": "released to Russia in 2024 prisoner exchange",
+      "summary": "A Russian man using the Brazilian identity Jose Assis Giammaria worked in academic settings before Norway arrested him on suspicion of espionage. Norwegian authorities later said he confirmed the name Mikhail Mikushin.",
+      "public_names": ["Mikhail Mikushin", "Jose Assis Giammaria"],
+      "story_beats": [
+        "The public allegation centered on Arctic policy, hybrid threats, and research access in Norway.",
+        "AP reported that Norwegian investigators believed he was in Norway under a false name while working for a Russian intelligence service.",
+        "Public reporting and investigative claims linked him to the GRU; he was later included in the 2024 exchange."
+      ],
+      "defender_lesson": "Academic counterintelligence requires identity assurance and data-governance safeguards while protecting legitimate international research.",
+      "sources": [
+        {"title": "Academic arrested in Norway as a Moscow spy confirms his real, Russian name", "publisher": "Associated Press", "url": "https://apnews.com/article/norway-russia-brazilian-university-spy-1f93f5ddb7195f4b70fb394bf3403ef3"},
+        {"title": "Mikhail Mikushin summary", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/Mikhail_Mikushin"},
+        {"title": "2024 Ankara prisoner exchange", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "case-pablo-gonzalez-rubtsov",
+      "title": "Pablo Gonzalez / Pavel Rubtsov",
+      "years": "2010s-2024",
+      "service": "GRU alleged / disputed",
+      "status": "released to Russia in 2024 prisoner exchange; allegations disputed",
+      "summary": "Spanish-Russian journalist Pablo Gonzalez, born Pavel Rubtsov according to public reporting, was detained by Poland after the 2022 full-scale invasion of Ukraine on suspicion of GRU espionage and later returned to Russia in the 2024 prisoner exchange. He denies links to Russian intelligence.",
+      "public_names": ["Pablo Gonzalez", "Pavel Rubtsov"],
+      "story_beats": [
+        "The case is analytically sensitive because he had a real public journalism career and supporters who argue the evidence was not tested in open court.",
+        "The Guardian reported Polish claims involving intelligence-style reports about people, facilities, and infrastructure.",
+        "His inclusion in the exchange changed how many observers interpreted the case, but SpyWatch marks contested details as allegations unless adjudicated."
+      ],
+      "defender_lesson": "Separate detention, allegations, public evidence, trial status, exchange status, and denial.",
+      "sources": [
+        {"title": "Journalist or Russian spy? The strange case of Pablo Gonzalez", "publisher": "The Guardian", "url": "https://www.theguardian.com/world/2024/oct/15/journalist-russian-spy-pablo-gonzalez-kremlin-illegal"},
+        {"title": "Pablo Gonzalez Yague summary", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/Pablo_Gonz%C3%A1lez_Yag%C3%BCe"},
+        {"title": "2024 Ankara prisoner exchange", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange"}
+      ],
+      "confidence": "disputed"
+    }
+  ],
+  "backlog": [
+    {"id": "case-buryakov-ny-2015", "title": "Evgeny Buryakov / Sporyshev / Podobnyy New York case", "priority": "high", "needed": "Add full DOJ-linked profile and legal-cover/non-official-cover distinction."},
+    {"id": "case-butina-2018", "title": "Maria Butina unregistered-agent case", "priority": "medium", "needed": "Add influence-network case file without labeling as illegal spy program."},
+    {"id": "case-unit-29155-human-operators", "title": "GRU Unit 29155 named officers", "priority": "high", "needed": "Build public roster from DOJ/RFJ/Bellingcat only; no private family details."},
+    {"id": "case-cold-war-illegals", "title": "Rudolf Abel / William Fisher and Cold War illegals lineage", "priority": "medium", "needed": "Add historical context profile for the program lineage."}
+  ]
+}
