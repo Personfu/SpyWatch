@@ -1,0 +1,34 @@
+id: cn-storm-0558
+name: Storm-0558
+country: China
+sponsor: PRC state-aligned reporting
+actor_type: state-aligned cyber
+aliases:
+  - Storm-0558
+confidence: high
+summary: >-
+  Storm-0558 is a China-linked actor name used in public reporting around targeted cloud and email access activity affecting government and related organizations.
+public_reporting:
+  - title: Cloud and email access public reporting
+    year: 2023
+    note: Public reporting focused on targeted access to email environments and follow-on risk to government organizations.
+sectors:
+  - government
+  - diplomatic
+  - technology
+  - cloud services
+analytic_notes:
+  - Keep this profile grounded in the specific public incident reporting.
+  - Avoid broad claims beyond the public record.
+defensive_notes:
+  - Emphasize cloud logging, token review, identity provider governance, key management, and incident-response readiness.
+sources:
+  - title: Microsoft response to Storm-0558 reporting
+    publisher: Microsoft
+    date: 2023
+    url: https://www.microsoft.com/en-us/security/blog/2023/09/06/results-of-major-technical-investigations-for-storm-0558-key-acquisition/
+  - title: Review of the Summer 2023 Microsoft Exchange Online Intrusion
+    publisher: Cyber Safety Review Board
+    date: 2024
+    url: https://www.cisa.gov/resources-tools/resources/review-summer-2023-microsoft-exchange-online-intrusion
+last_reviewed: 2026-06-25
