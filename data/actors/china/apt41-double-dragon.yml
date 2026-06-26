@@ -1,0 +1,37 @@
+id: cn-apt41
+name: APT41 / Double Dragon
+country: China
+sponsor: PRC state-aligned reporting
+actor_type: state-aligned cyber / eCrime overlap
+aliases:
+  - APT41
+  - Double Dragon
+  - Wicked Panda
+  - Barium
+confidence: high
+summary: >-
+  APT41 is a widely reported China-linked actor cluster. Public reporting is notable because it describes both state-aligned intelligence activity and financially motivated overlap.
+public_reporting:
+  - title: Public indictment and vendor reporting
+    year: 2019-2020
+    note: Public sources describe activity across technology, gaming, telecom, healthcare, and other sectors.
+sectors:
+  - technology
+  - telecommunications
+  - healthcare
+  - gaming
+  - government
+analytic_notes:
+  - Keep state-aligned and financially motivated reporting separated in notes.
+  - Do not assume all alias activity is the same team without source support.
+defensive_notes:
+  - Emphasize asset inventory, patch governance, identity review, logging, and third-party exposure management.
+sources:
+  - title: APT41
+    publisher: MITRE ATT&CK
+    url: https://attack.mitre.org/groups/G0096/
+  - title: Seven International Cyber Defendants, Including APT41 Actors, Charged
+    publisher: U.S. Department of Justice
+    date: 2020-09-16
+    url: https://www.justice.gov/opa/pr/seven-international-cyber-defendants-including-apt41-actors-charged-connection-computer
+last_reviewed: 2026-06-25
