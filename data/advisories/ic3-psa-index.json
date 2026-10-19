@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "name": "IC3 public service announcements, index page",
+    "source": "https://www.ic3.gov/PSA",
+    "note": "PSAs linked from the IC3 index at snapshot time; not a complete archive. Dates come from the PSA identifier and are checked against the URL year. Warnings describe reported patterns, not findings about named people.",
+    "snapshot_date": "2026-10-19",
+    "record_count": 22
+  },
+  "records": [
+    {
+      "id": "PSA261016",
+      "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+      "url": "https://www.ic3.gov/PSA/2026/PSA261016",
+      "published": "2026-10-16"
+    },
+    {
+      "id": "PSA261015",
+      "title": "FBI Cautions About Threats to Election Workers Ahead of the November 2026 Midterm Election",
+      "url": "https://www.ic3.gov/PSA/2026/PSA261015",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "PSA261013",
+      "title": "North Korean IT Workers Expanding Use of Facilitators, Broadening Recruitment",
+      "url": "https://www.ic3.gov/PSA/2026/PSA261013",
+      "published": "2026-10-13"
+    },
+    {
+      "id": "PSA260917",
+      "title": "Scammers Impersonating Law Enforcement and Government Officials in Fraud Schemes",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260917",
+      "published": "2026-09-17"
+    },
+    {
+      "id": "PSA260901",
+      "title": "Malicious Cyber Actors Gain Access to Victim Accounts Through Consent Phishing",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260901",
+      "published": "2026-09-01"
+    },
+    {
+      "id": "PSA260810",
+      "title": "Sexual Exploitation Actors Stealing and Leaking Explicit Content",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260810",
+      "published": "2026-08-10"
+    },
+    {
+      "id": "PSA260804",
+      "title": "Ongoing Threats of Swatting and Indicators for Community Members",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260804",
+      "published": "2026-08-04"
+    },
+    {
+      "id": "PSA260720",
+      "title": "FBI Warns of Scammers Impersonating the IC3",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260720",
+      "published": "2026-07-20"
+    },
+    {
+      "id": "PSA260626",
+      "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260626",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "PSA260618",
+      "title": "Cyber Criminals Redirecting Users to Fraudulent Websites with Malicious Traffic Distribution Systems",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260618",
+      "published": "2026-06-18"
+    },
+    {
+      "id": "PSA260616",
+      "title": "Protect Your Property from Illegal Sales Through Parcel Owner Impersonation",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260616",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "PSA260615",
+      "title": "Scammers Use Couriers to Collect Cash in Cryptocurrency Investment Scams",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260615",
+      "published": "2026-06-15"
+    },
+    {
+      "id": "PSA260603",
+      "title": "Emerging Hospice Fraud Targeting Medicare Recipients",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260603",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "PSA260527",
+      "title": "Threat Actors Spoofing FIFA Websites in Advance of the 2026 World Cup",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260527",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "PSA260521",
+      "title": "Kali365 Phishing-as-a-Service Kit Hijacks Microsoft 365 Access Tokens",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260521",
+      "published": "2026-05-21"
+    },
+    {
+      "id": "PSA260515",
+      "title": "ShinyHunters: Cyber Criminal Group Attacks Learning Management System",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260515",
+      "published": "2026-05-15"
+    },
+    {
+      "id": "PSA260430",
+      "title": "Cyber-Enabled Strategic Cargo Theft Surging",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260430",
+      "published": "2026-04-30"
+    },
+    {
+      "id": "PSA260407",
+      "title": "Russian GRU Exploiting Vulnerable Routers to Steal Sensitive Information",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260407",
+      "published": "2026-04-07"
+    },
+    {
+      "id": "PSA260331",
+      "title": "Data Security Risks of Using Foreign-Developed Mobile Apps in the United States",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260331",
+      "published": "2026-03-31"
+    },
+    {
+      "id": "PSA260320",
+      "title": "Russian Intelligence Services Target Commercial Messaging Application Accounts",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260320",
+      "published": "2026-03-20"
+    },
+    {
+      "id": "PSA260312",
+      "title": "Evading Residential Proxy Networks: Protecting Your Devices from Becoming a Tool for Criminals",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260312",
+      "published": "2026-03-12"
+    },
+    {
+      "id": "PSA260309",
+      "title": "Criminals Impersonating City and County Officials in Phishing Emails for Planning and Zoning Permits",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260309",
+      "published": "2026-03-09"
+    }
+  ]
+}

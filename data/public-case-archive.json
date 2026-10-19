@@ -45,7 +45,6 @@
       "defender_lesson": "Legends often fail through small true attachments: pets, habits, old regional records, platform reuse, and personal relationships.",
       "sources": [
         {"title": "Socialite, Widow, Jeweller, Spy", "publisher": "Bellingcat / The Insider / Der Spiegel / La Repubblica reporting", "url": "https://www.bellingcat.com/news/2022/08/25/socialite-widow-jeweller-spy-how-a-gru-agent-charmed-her-way-into-nato-circles-in-italy/"},
-        {"title": "User-provided research transcript", "publisher": "Conversation attachment", "url": "Pasted text(56).txt"},
         {"title": "Investigation of Maria Adela summary", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/Bellingcat#Investigation_of_Maria_Adela"}
       ],
       "confidence": "high"
@@ -133,6 +132,25 @@
         {"title": "2024 Ankara prisoner exchange", "publisher": "Public encyclopedia summary", "url": "https://en.wikipedia.org/wiki/2024_Ankara_prisoner_exchange"}
       ],
       "confidence": "disputed"
+    },
+    {
+      "id": "case-sebastien-raoult-shinyhunters",
+      "title": "Sebastien Raoult / ShinyHunters-linked data-theft case",
+      "years": "reported 2019-2024; not verified",
+      "service": "eCrime; DOJ described hacking and sale of stolen data",
+      "status": "reported sentence of three years; release text not verified",
+      "summary": "A DOJ sentencing release is cited for French national Sebastien Raoult in a case involving hacking and sale of stolen data. The release text and date were not retrieved in this repository, so the sentence remains unverified. Public reporting associates the case with the ShinyHunters label. Any individual prosecution would not establish that the wider cluster was dismantled or that every person using the label was identified.",
+      "public_names": ["Sebastien Raoult"],
+      "story_beats": [
+        "The archive cites a DOJ release for a three-year sentence; verify the release text before relying on this beat.",
+        "Treat the court outcome as specific to the named defendant; cluster labels do not establish shared identity or responsibility for every incident.",
+        "Keep the event status precise: reported sentence until the court record is checked, rather than simply described as captured."
+      ],
+      "defender_lesson": "Prioritize strong authentication, least-privilege access, breach detection, and prompt credential rotation; do not infer an organization's exposure from a threat-actor label alone.",
+      "sources": [
+        {"title": "DOJ release cited for Sebastien Raoult (title, date, and URL not verified in this environment)", "publisher": "U.S. Department of Justice (unverified)", "url": "https://www.justice.gov/usao-wdwa/pr/french-hacker-sentenced-three-years-prison-hacking-and-selling-stolen-data"}
+      ],
+      "confidence": "low"
     }
   ],
   "backlog": [

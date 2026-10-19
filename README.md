@@ -35,6 +35,13 @@ The key rule: vendor names are useful search labels, not proof by themselves. Un
 
 ## New expansion files
 
+- `docs/public-records-desk.md` - official live sources for public fugitive, cybercrime, fraud, intelligence, and sanctions records, with status and sourcing rules.
+- `data/wanted/fbi-wanted.json` - dated FBI wanted-notice snapshot for threat-related categories, with FBI-reported status.
+- `data/groups/mitre-attack-intrusion-sets.json` - MITRE ATT&CK intrusion-set aliases with profile-coverage flags.
+- `data/sanctions/ofac-cyber-dprk.json` - OFAC designations under cyber and DPRK programs, without personal identifiers.
+- `data/advisories/ic3-psa-index.json` - IC3 public service announcement index.
+- `scripts/build_datasets.py` - rebuilds the official-source datasets above from their public feeds.
+- `scripts/validate_datasets.py` - checks dataset schema, citations, cross-references, and data minimization.
 - `docs/casefiles/README.md` - casefile index and expansion queue
 - `docs/casefiles/operation-ghost-stories.md` - Ghost Stories educational casefile
 - `docs/casefiles/buryakov-svr-new-york.md` - New York SVR economic-intelligence casefile
@@ -66,6 +73,10 @@ For photographs or images, link to official case pages, court exhibits, reputabl
 index.html                                      static public archive UI
 assets/site.css                                 static archive styling
 data/public-case-archive.json                   public case archive dataset
+data/wanted/fbi-wanted.json                     dated FBI wanted-notice snapshot (threat categories)
+data/groups/mitre-attack-intrusion-sets.json    MITRE ATT&CK intrusion-set aliases
+data/sanctions/ofac-cyber-dprk.json             OFAC cyber and DPRK designations
+data/advisories/ic3-psa-index.json              IC3 public service announcement index
 data/timelines/public-intelligence-cases.json   public intelligence timeline
 docs/vendor-alias-mapping.md                    vendor-name normalization guide
 docs/unit-mapping-russia.md                     Russia unit mapping appendix
@@ -75,6 +86,7 @@ docs/unit-mapping-iran.md                       Iran unit mapping appendix
 docs/casefiles/README.md                        casefile index
 docs/casefiles/*.md                             expanded public casefiles
 docs/source-standards-expanded.md               expanded source standards
+docs/public-records-desk.md                     official public-records directory and case-entry standard
 .github/workflows/validate.yml                  CI validation
 CONTRIBUTING.md                                 contribution rules
 docs/source-policy.md                           source standards and confidence rules
@@ -89,6 +101,8 @@ data/actors/index.yml                           actor index
 data/actors/*/*.yml                             actor profiles
 prompts/openai-enrichment.md                    safe enrichment workflow
 scripts/build_index.py                          rebuilds the actor index
+scripts/build_datasets.py                       rebuilds the official-source datasets
+scripts/validate_datasets.py                    validates datasets and cross-references
 scripts/validate_actors.py                      validates actor YAML
 ```
 
@@ -109,21 +123,18 @@ scripts/validate_actors.py                      validates actor YAML
 - PLA Unit 61398 / APT1
 - Storm-0558
 - Volt Typhoon
-- APT10 / Stone Panda
 
 ### Iran
 
 - MuddyWater / Mango Sandstorm
 - Charming Kitten / APT35
-- APT33 / Elfin
-- APT34 / OilRig
 
 ### North Korea
 
 - Lazarus Group / Hidden Cobra
-- APT38
 - Kimsuky
-- Andariel
+
+Groups in the MITRE ATT&CK dataset that lack a local profile (for example APT10 / menuPass, APT33, APT34 / OilRig, APT38, and Andariel) are listed in `data/groups/mitre-attack-intrusion-sets.json` with `profile_status` set to `not_profiled`.
 
 ## Local use
 
@@ -131,6 +142,8 @@ scripts/validate_actors.py                      validates actor YAML
 python -m pip install pyyaml
 python scripts/validate_actors.py
 python scripts/build_index.py
+python scripts/validate_datasets.py
+python scripts/build_datasets.py   # needs network access to the official feeds
 ```
 
 ## Profile model

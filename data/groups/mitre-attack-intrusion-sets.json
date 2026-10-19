@@ -1,0 +1,2248 @@
+{
+  "meta": {
+    "name": "MITRE ATT&CK intrusion-set aliases",
+    "source": "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json",
+    "note": "Derived from MITRE ATT&CK Enterprise data. Cite MITRE ATT&CK when reusing. Aliases are naming labels, not proof of attribution.",
+    "profile_match_rule": "Exact match after splitting names on '/', removing generic words such as group, cyber, actors, and unit, and requiring at least four remaining characters. A match is a research link, not an attribution finding.",
+    "snapshot_date": "2026-10-19",
+    "record_count": 178
+  },
+  "records": [
+    {
+      "id": "G0001",
+      "name": "Axiom",
+      "url": "https://attack.mitre.org/groups/G0001",
+      "aliases": [
+        "Axiom",
+        "Group 72"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0002",
+      "name": "Moafee",
+      "url": "https://attack.mitre.org/groups/G0002",
+      "aliases": [
+        "Moafee"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0003",
+      "name": "Cleaver",
+      "url": "https://attack.mitre.org/groups/G0003",
+      "aliases": [
+        "Cleaver",
+        "TG-2889",
+        "Threat Group 2889"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0004",
+      "name": "Ke3chang",
+      "url": "https://attack.mitre.org/groups/G0004",
+      "aliases": [
+        "APT15",
+        "GREF",
+        "Ke3chang",
+        "Mirage",
+        "NICKEL",
+        "Nylon Typhoon",
+        "Playful Dragon",
+        "RoyalAPT",
+        "Vixen Panda"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0005",
+      "name": "APT12",
+      "url": "https://attack.mitre.org/groups/G0005",
+      "aliases": [
+        "APT12",
+        "DNSCALC",
+        "DynCalc",
+        "IXESHE",
+        "Numbered Panda"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0006",
+      "name": "APT1",
+      "url": "https://attack.mitre.org/groups/G0006",
+      "aliases": [
+        "APT1",
+        "Comment Crew",
+        "Comment Group",
+        "Comment Panda"
+      ],
+      "local_profile_ids": [
+        "cn-pla-unit-61398-apt1"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0007",
+      "name": "APT28",
+      "url": "https://attack.mitre.org/groups/G0007",
+      "aliases": [
+        "APT28",
+        "Fancy Bear",
+        "Forest Blizzard",
+        "FROZENLAKE",
+        "Group 74",
+        "GruesomeLarch",
+        "IRON TWILIGHT",
+        "Pawn Storm",
+        "Sednit",
+        "SNAKEMACKEREL",
+        "Sofacy",
+        "STRONTIUM",
+        "Swallowtail",
+        "TG-4127",
+        "Threat Group-4127",
+        "Tsar Team"
+      ],
+      "local_profile_ids": [
+        "ru-gru-26165-apt28"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0008",
+      "name": "Carbanak",
+      "url": "https://attack.mitre.org/groups/G0008",
+      "aliases": [
+        "Anunak",
+        "Carbanak"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0009",
+      "name": "Deep Panda",
+      "url": "https://attack.mitre.org/groups/G0009",
+      "aliases": [
+        "Black Vine",
+        "Deep Panda",
+        "KungFu Kittens",
+        "PinkPanther",
+        "Shell Crew",
+        "WebMasters"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0010",
+      "name": "Turla",
+      "url": "https://attack.mitre.org/groups/G0010",
+      "aliases": [
+        "BELUGASTURGEON",
+        "Group 88",
+        "IRON HUNTER",
+        "Krypton",
+        "Secret Blizzard",
+        "Snake",
+        "Turla",
+        "Venomous Bear",
+        "Waterbug",
+        "WhiteBear"
+      ],
+      "local_profile_ids": [
+        "ru-turla-snake"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0011",
+      "name": "PittyTiger",
+      "url": "https://attack.mitre.org/groups/G0011",
+      "aliases": [
+        "PittyTiger"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0012",
+      "name": "Darkhotel",
+      "url": "https://attack.mitre.org/groups/G0012",
+      "aliases": [
+        "Darkhotel",
+        "DUBNIUM",
+        "Zigzag Hail"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0013",
+      "name": "APT30",
+      "url": "https://attack.mitre.org/groups/G0013",
+      "aliases": [
+        "APT30"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0016",
+      "name": "APT29",
+      "url": "https://attack.mitre.org/groups/G0016",
+      "aliases": [
+        "APT29",
+        "Blue Kitsune",
+        "Cozy Bear",
+        "CozyDuke",
+        "Dark Halo",
+        "IRON HEMLOCK",
+        "IRON RITUAL",
+        "Midnight Blizzard",
+        "NOBELIUM",
+        "NobleBaron",
+        "SolarStorm",
+        "The Dukes",
+        "UNC2452",
+        "UNC3524",
+        "YTTRIUM"
+      ],
+      "local_profile_ids": [
+        "ru-svr-apt29"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0017",
+      "name": "DragonOK",
+      "url": "https://attack.mitre.org/groups/G0017",
+      "aliases": [
+        "DragonOK"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0018",
+      "name": "admin@338",
+      "url": "https://attack.mitre.org/groups/G0018",
+      "aliases": [
+        "admin@338"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0019",
+      "name": "Naikon",
+      "url": "https://attack.mitre.org/groups/G0019",
+      "aliases": [
+        "Naikon"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0020",
+      "name": "Equation",
+      "url": "https://attack.mitre.org/groups/G0020",
+      "aliases": [
+        "Equation"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0021",
+      "name": "Molerats",
+      "url": "https://attack.mitre.org/groups/G0021",
+      "aliases": [
+        "Gaza Cybergang",
+        "Molerats",
+        "Operation Molerats"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0022",
+      "name": "APT3",
+      "url": "https://attack.mitre.org/groups/G0022",
+      "aliases": [
+        "APT3",
+        "Buckeye",
+        "Gothic Panda",
+        "Pirpi",
+        "TG-0110",
+        "Threat Group-0110",
+        "UPS Team"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0023",
+      "name": "APT16",
+      "url": "https://attack.mitre.org/groups/G0023",
+      "aliases": [
+        "APT16"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0024",
+      "name": "Putter Panda",
+      "url": "https://attack.mitre.org/groups/G0024",
+      "aliases": [
+        "APT2",
+        "MSUpdater",
+        "Putter Panda"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0025",
+      "name": "APT17",
+      "url": "https://attack.mitre.org/groups/G0025",
+      "aliases": [
+        "APT17",
+        "Deputy Dog"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0026",
+      "name": "APT18",
+      "url": "https://attack.mitre.org/groups/G0026",
+      "aliases": [
+        "APT18",
+        "Dynamite Panda",
+        "TG-0416",
+        "Threat Group-0416"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0027",
+      "name": "Threat Group-3390",
+      "url": "https://attack.mitre.org/groups/G0027",
+      "aliases": [
+        "APT27",
+        "BRONZE UNION",
+        "Earth Smilodon",
+        "Emissary Panda",
+        "Iron Tiger",
+        "Linen Typhoon",
+        "LuckyMouse",
+        "TG-3390",
+        "Threat Group-3390"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0028",
+      "name": "Threat Group-1314",
+      "url": "https://attack.mitre.org/groups/G0028",
+      "aliases": [
+        "TG-1314",
+        "Threat Group-1314"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0029",
+      "name": "Scarlet Mimic",
+      "url": "https://attack.mitre.org/groups/G0029",
+      "aliases": [
+        "Scarlet Mimic"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0030",
+      "name": "Lotus Blossom",
+      "url": "https://attack.mitre.org/groups/G0030",
+      "aliases": [
+        "Bilbug",
+        "DRAGONFISH",
+        "Lotus Blossom",
+        "RADIUM",
+        "Raspberry Typhoon",
+        "Spring Dragon",
+        "Thrip"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0032",
+      "name": "Lazarus Group",
+      "url": "https://attack.mitre.org/groups/G0032",
+      "aliases": [
+        "Diamond Sleet",
+        "Guardians of Peace",
+        "HIDDEN COBRA",
+        "Labyrinth Chollima",
+        "Lazarus Group",
+        "NICKEL ACADEMY",
+        "ZINC"
+      ],
+      "local_profile_ids": [
+        "kp-lazarus-group"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0033",
+      "name": "Poseidon Group",
+      "url": "https://attack.mitre.org/groups/G0033",
+      "aliases": [
+        "Poseidon Group"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0034",
+      "name": "Sandworm Team",
+      "url": "https://attack.mitre.org/groups/G0034",
+      "aliases": [
+        "APT44",
+        "BlackEnergy (Group)",
+        "ELECTRUM",
+        "FROZENBARENTS",
+        "IRIDIUM",
+        "IRON VIKING",
+        "Quedagh",
+        "Sandworm Team",
+        "Seashell Blizzard",
+        "Telebots",
+        "Voodoo Bear"
+      ],
+      "local_profile_ids": [
+        "ru-gru-74455-sandworm"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0035",
+      "name": "Dragonfly",
+      "url": "https://attack.mitre.org/groups/G0035",
+      "aliases": [
+        "Berserk Bear",
+        "BROMINE",
+        "Crouching Yeti",
+        "Dragonfly",
+        "DYMALLOY",
+        "Energetic Bear",
+        "Ghost Blizzard",
+        "IRON LIBERTY",
+        "TEMP.Isotope",
+        "TG-4192"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0036",
+      "name": "GCMAN",
+      "url": "https://attack.mitre.org/groups/G0036",
+      "aliases": [
+        "GCMAN"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0037",
+      "name": "FIN6",
+      "url": "https://attack.mitre.org/groups/G0037",
+      "aliases": [
+        "Camouflage Tempest",
+        "FIN6",
+        "ITG08",
+        "Magecart Group 6",
+        "Skeleton Spider",
+        "TAAL"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0038",
+      "name": "Stealth Falcon",
+      "url": "https://attack.mitre.org/groups/G0038",
+      "aliases": [
+        "Stealth Falcon"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0039",
+      "name": "Suckfly",
+      "url": "https://attack.mitre.org/groups/G0039",
+      "aliases": [
+        "Suckfly"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0040",
+      "name": "Patchwork",
+      "url": "https://attack.mitre.org/groups/G0040",
+      "aliases": [
+        "Chinastrats",
+        "Dropping Elephant",
+        "Hangover Group",
+        "MONSOON",
+        "Operation Hangover",
+        "Patchwork"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0041",
+      "name": "Strider",
+      "url": "https://attack.mitre.org/groups/G0041",
+      "aliases": [
+        "ProjectSauron",
+        "Strider"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0043",
+      "name": "Group5",
+      "url": "https://attack.mitre.org/groups/G0043",
+      "aliases": [
+        "Group5"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0044",
+      "name": "Winnti Group",
+      "url": "https://attack.mitre.org/groups/G0044",
+      "aliases": [
+        "Blackfly",
+        "Winnti Group"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0045",
+      "name": "menuPass",
+      "url": "https://attack.mitre.org/groups/G0045",
+      "aliases": [
+        "APT10",
+        "BRONZE RIVERSIDE",
+        "Cicada",
+        "CVNX",
+        "HOGFISH",
+        "menuPass",
+        "POTASSIUM",
+        "Red Apollo",
+        "Stone Panda"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0046",
+      "name": "FIN7",
+      "url": "https://attack.mitre.org/groups/G0046",
+      "aliases": [
+        "Carbon Spider",
+        "ELBRUS",
+        "FIN7",
+        "GOLD NIAGARA",
+        "ITG14",
+        "Sangria Tempest"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0047",
+      "name": "Gamaredon Group",
+      "url": "https://attack.mitre.org/groups/G0047",
+      "aliases": [
+        "ACTINIUM",
+        "Aqua Blizzard",
+        "Armageddon",
+        "DEV-0157",
+        "Gamaredon Group",
+        "IRON TILDEN",
+        "NastyShrew",
+        "Primitive Bear",
+        "Shuckworm"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0048",
+      "name": "RTM",
+      "url": "https://attack.mitre.org/groups/G0048",
+      "aliases": [
+        "RTM"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0049",
+      "name": "OilRig",
+      "url": "https://attack.mitre.org/groups/G0049",
+      "aliases": [
+        "APT34",
+        "COBALT GYPSY",
+        "Crambus",
+        "Earth Simnavaz",
+        "EUROPIUM",
+        "Evasive Serpens",
+        "Hazel Sandstorm",
+        "Helix Kitten",
+        "IRN2",
+        "ITG13",
+        "OilRig",
+        "TA452"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0050",
+      "name": "APT32",
+      "url": "https://attack.mitre.org/groups/G0050",
+      "aliases": [
+        "APT-C-00",
+        "APT32",
+        "BISMUTH",
+        "Canvas Cyclone",
+        "OceanLotus",
+        "SeaLotus"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0051",
+      "name": "FIN10",
+      "url": "https://attack.mitre.org/groups/G0051",
+      "aliases": [
+        "FIN10"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0052",
+      "name": "CopyKittens",
+      "url": "https://attack.mitre.org/groups/G0052",
+      "aliases": [
+        "CopyKittens"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0053",
+      "name": "FIN5",
+      "url": "https://attack.mitre.org/groups/G0053",
+      "aliases": [
+        "FIN5"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0054",
+      "name": "Sowbug",
+      "url": "https://attack.mitre.org/groups/G0054",
+      "aliases": [
+        "Sowbug"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0055",
+      "name": "NEODYMIUM",
+      "url": "https://attack.mitre.org/groups/G0055",
+      "aliases": [
+        "NEODYMIUM"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0056",
+      "name": "PROMETHIUM",
+      "url": "https://attack.mitre.org/groups/G0056",
+      "aliases": [
+        "PROMETHIUM",
+        "StrongPity"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0059",
+      "name": "Magic Hound",
+      "url": "https://attack.mitre.org/groups/G0059",
+      "aliases": [
+        "APT35",
+        "Charming Kitten",
+        "COBALT ILLUSION",
+        "ITG18",
+        "Magic Hound",
+        "Mint Sandstorm",
+        "Newscaster",
+        "Phosphorus",
+        "TA453"
+      ],
+      "local_profile_ids": [
+        "ir-charming-kitten-apt35"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0060",
+      "name": "BRONZE BUTLER",
+      "url": "https://attack.mitre.org/groups/G0060",
+      "aliases": [
+        "BRONZE BUTLER",
+        "REDBALDKNIGHT",
+        "Tick"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0061",
+      "name": "FIN8",
+      "url": "https://attack.mitre.org/groups/G0061",
+      "aliases": [
+        "FIN8",
+        "Syssphinx"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0062",
+      "name": "TA459",
+      "url": "https://attack.mitre.org/groups/G0062",
+      "aliases": [
+        "TA459"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0063",
+      "name": "BlackOasis",
+      "url": "https://attack.mitre.org/groups/G0063",
+      "aliases": [
+        "BlackOasis"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0064",
+      "name": "APT33",
+      "url": "https://attack.mitre.org/groups/G0064",
+      "aliases": [
+        "APT33",
+        "Elfin",
+        "HOLMIUM",
+        "Peach Sandstorm"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0065",
+      "name": "Leviathan",
+      "url": "https://attack.mitre.org/groups/G0065",
+      "aliases": [
+        "APT40",
+        "BRONZE MOHAWK",
+        "Gadolinium",
+        "Gingham Typhoon",
+        "Kryptonite Panda",
+        "Leviathan",
+        "MUDCARP",
+        "TEMP.Jumper",
+        "TEMP.Periscope"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0066",
+      "name": "Elderwood",
+      "url": "https://attack.mitre.org/groups/G0066",
+      "aliases": [
+        "Beijing Group",
+        "Elderwood",
+        "Elderwood Gang",
+        "Sneaky Panda"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0067",
+      "name": "APT37",
+      "url": "https://attack.mitre.org/groups/G0067",
+      "aliases": [
+        "APT37",
+        "Group123",
+        "InkySquid",
+        "Reaper",
+        "Ricochet Chollima",
+        "ScarCruft",
+        "TEMP.Reaper"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0068",
+      "name": "PLATINUM",
+      "url": "https://attack.mitre.org/groups/G0068",
+      "aliases": [
+        "PLATINUM"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0069",
+      "name": "MuddyWater",
+      "url": "https://attack.mitre.org/groups/G0069",
+      "aliases": [
+        "Earth Vetala",
+        "Mango Sandstorm",
+        "MERCURY",
+        "MuddyKrill",
+        "MuddyWater",
+        "Seedworm",
+        "Static Kitten",
+        "TA450",
+        "TEMP.Zagros"
+      ],
+      "local_profile_ids": [
+        "ir-muddywater"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0070",
+      "name": "Dark Caracal",
+      "url": "https://attack.mitre.org/groups/G0070",
+      "aliases": [
+        "Dark Caracal"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0071",
+      "name": "Orangeworm",
+      "url": "https://attack.mitre.org/groups/G0071",
+      "aliases": [
+        "Orangeworm"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0073",
+      "name": "APT19",
+      "url": "https://attack.mitre.org/groups/G0073",
+      "aliases": [
+        "APT19",
+        "C0d0so0",
+        "Codoso",
+        "Codoso Team",
+        "Sunshop Group"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0075",
+      "name": "Rancor",
+      "url": "https://attack.mitre.org/groups/G0075",
+      "aliases": [
+        "Rancor"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0076",
+      "name": "Thrip",
+      "url": "https://attack.mitre.org/groups/G0076",
+      "aliases": [
+        "Thrip"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0077",
+      "name": "Leafminer",
+      "url": "https://attack.mitre.org/groups/G0077",
+      "aliases": [
+        "Leafminer",
+        "Raspite"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0078",
+      "name": "Gorgon Group",
+      "url": "https://attack.mitre.org/groups/G0078",
+      "aliases": [
+        "Gorgon Group"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0079",
+      "name": "DarkHydrus",
+      "url": "https://attack.mitre.org/groups/G0079",
+      "aliases": [
+        "DarkHydrus"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0080",
+      "name": "Cobalt Group",
+      "url": "https://attack.mitre.org/groups/G0080",
+      "aliases": [
+        "Cobalt Gang",
+        "Cobalt Group",
+        "Cobalt Spider",
+        "GOLD KINGSWOOD"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0081",
+      "name": "Tropic Trooper",
+      "url": "https://attack.mitre.org/groups/G0081",
+      "aliases": [
+        "KeyBoy",
+        "Pirate Panda",
+        "Tropic Trooper"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0082",
+      "name": "APT38",
+      "url": "https://attack.mitre.org/groups/G0082",
+      "aliases": [
+        "APT38",
+        "BeagleBoyz",
+        "Bluenoroff",
+        "COPERNICIUM",
+        "NICKEL GLADSTONE",
+        "Sapphire Sleet",
+        "Stardust Chollima"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0083",
+      "name": "SilverTerrier",
+      "url": "https://attack.mitre.org/groups/G0083",
+      "aliases": [
+        "SilverTerrier"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0084",
+      "name": "Gallmaker",
+      "url": "https://attack.mitre.org/groups/G0084",
+      "aliases": [
+        "Gallmaker"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0085",
+      "name": "FIN4",
+      "url": "https://attack.mitre.org/groups/G0085",
+      "aliases": [
+        "FIN4"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0087",
+      "name": "APT39",
+      "url": "https://attack.mitre.org/groups/G0087",
+      "aliases": [
+        "APT39",
+        "Chafer",
+        "ITG07",
+        "Remix Kitten"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0088",
+      "name": "TEMP.Veles",
+      "url": "https://attack.mitre.org/groups/G0088",
+      "aliases": [
+        "TEMP.Veles",
+        "XENOTIME"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0089",
+      "name": "The White Company",
+      "url": "https://attack.mitre.org/groups/G0089",
+      "aliases": [
+        "The White Company"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0090",
+      "name": "WIRTE",
+      "url": "https://attack.mitre.org/groups/G0090",
+      "aliases": [
+        "Ashen Lepus",
+        "WIRTE"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0091",
+      "name": "Silence",
+      "url": "https://attack.mitre.org/groups/G0091",
+      "aliases": [
+        "Silence",
+        "Whisper Spider"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0092",
+      "name": "TA505",
+      "url": "https://attack.mitre.org/groups/G0092",
+      "aliases": [
+        "CHIMBORAZO",
+        "Hive0065",
+        "Spandex Tempest",
+        "TA505"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0093",
+      "name": "GALLIUM",
+      "url": "https://attack.mitre.org/groups/G0093",
+      "aliases": [
+        "GALLIUM",
+        "Granite Typhoon"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0094",
+      "name": "Kimsuky",
+      "url": "https://attack.mitre.org/groups/G0094",
+      "aliases": [
+        "APT43",
+        "Black Banshee",
+        "Earth Kumiho",
+        "Emerald Sleet",
+        "Kimsuky",
+        "PatheticSlug",
+        "Springtail",
+        "TA427",
+        "THALLIUM",
+        "Velvet Chollima"
+      ],
+      "local_profile_ids": [
+        "kp-kimsuky"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0095",
+      "name": "Machete",
+      "url": "https://attack.mitre.org/groups/G0095",
+      "aliases": [
+        "APT-C-43",
+        "El Machete",
+        "Machete"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0096",
+      "name": "APT41",
+      "url": "https://attack.mitre.org/groups/G0096",
+      "aliases": [
+        "APT41",
+        "BARIUM",
+        "Brass Typhoon",
+        "Wicked Panda"
+      ],
+      "local_profile_ids": [
+        "cn-apt41"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G0098",
+      "name": "BlackTech",
+      "url": "https://attack.mitre.org/groups/G0098",
+      "aliases": [
+        "BlackTech",
+        "Palmerworm"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0099",
+      "name": "APT-C-36",
+      "url": "https://attack.mitre.org/groups/G0099",
+      "aliases": [
+        "AguilaCiega",
+        "APT-C-36",
+        "APT-Q-98",
+        "Blind Eagle",
+        "TAG-144"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0100",
+      "name": "Inception",
+      "url": "https://attack.mitre.org/groups/G0100",
+      "aliases": [
+        "Cloud Atlas",
+        "Inception",
+        "Inception Framework"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0102",
+      "name": "Wizard Spider",
+      "url": "https://attack.mitre.org/groups/G0102",
+      "aliases": [
+        "DEV-0193",
+        "DEV-0237",
+        "FIN12",
+        "GOLD BLACKBURN",
+        "Grim Spider",
+        "ITG23",
+        "Periwinkle Tempest",
+        "Pistachio Tempest",
+        "TEMP.MixMaster",
+        "UNC1878",
+        "Wizard Spider"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0103",
+      "name": "Mofang",
+      "url": "https://attack.mitre.org/groups/G0103",
+      "aliases": [
+        "Mofang"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0105",
+      "name": "DarkVishnya",
+      "url": "https://attack.mitre.org/groups/G0105",
+      "aliases": [
+        "DarkVishnya"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0106",
+      "name": "Rocke",
+      "url": "https://attack.mitre.org/groups/G0106",
+      "aliases": [
+        "Rocke"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0107",
+      "name": "Whitefly",
+      "url": "https://attack.mitre.org/groups/G0107",
+      "aliases": [
+        "Whitefly"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0108",
+      "name": "Blue Mockingbird",
+      "url": "https://attack.mitre.org/groups/G0108",
+      "aliases": [
+        "Blue Mockingbird"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0112",
+      "name": "Windshift",
+      "url": "https://attack.mitre.org/groups/G0112",
+      "aliases": [
+        "Bahamut",
+        "Windshift"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0114",
+      "name": "Chimera",
+      "url": "https://attack.mitre.org/groups/G0114",
+      "aliases": [
+        "Chimera"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0115",
+      "name": "GOLD SOUTHFIELD",
+      "url": "https://attack.mitre.org/groups/G0115",
+      "aliases": [
+        "GOLD SOUTHFIELD",
+        "Pinchy Spider"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0117",
+      "name": "Fox Kitten",
+      "url": "https://attack.mitre.org/groups/G0117",
+      "aliases": [
+        "Fox Kitten",
+        "Lemon Sandstorm",
+        "Parisite",
+        "Pioneer Kitten",
+        "RUBIDIUM",
+        "UNC757"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0119",
+      "name": "Indrik Spider",
+      "url": "https://attack.mitre.org/groups/G0119",
+      "aliases": [
+        "DEV-0243",
+        "Evil Corp",
+        "Indrik Spider",
+        "Manatee Tempest",
+        "UNC2165"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0120",
+      "name": "Evilnum",
+      "url": "https://attack.mitre.org/groups/G0120",
+      "aliases": [
+        "Evilnum"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0121",
+      "name": "Sidewinder",
+      "url": "https://attack.mitre.org/groups/G0121",
+      "aliases": [
+        "Rattlesnake",
+        "Sidewinder",
+        "T-APT-04"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0122",
+      "name": "Silent Librarian",
+      "url": "https://attack.mitre.org/groups/G0122",
+      "aliases": [
+        "COBALT DICKENS",
+        "Silent Librarian",
+        "TA407"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0123",
+      "name": "Volatile Cedar",
+      "url": "https://attack.mitre.org/groups/G0123",
+      "aliases": [
+        "Lebanese Cedar",
+        "Volatile Cedar"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0124",
+      "name": "Windigo",
+      "url": "https://attack.mitre.org/groups/G0124",
+      "aliases": [
+        "Windigo"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0125",
+      "name": "HAFNIUM",
+      "url": "https://attack.mitre.org/groups/G0125",
+      "aliases": [
+        "HAFNIUM",
+        "Operation Exchange Marauder",
+        "Silk Typhoon"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0126",
+      "name": "Higaisa",
+      "url": "https://attack.mitre.org/groups/G0126",
+      "aliases": [
+        "Higaisa"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0127",
+      "name": "TA551",
+      "url": "https://attack.mitre.org/groups/G0127",
+      "aliases": [
+        "GOLD CABIN",
+        "Shathak",
+        "TA551"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0128",
+      "name": "ZIRCONIUM",
+      "url": "https://attack.mitre.org/groups/G0128",
+      "aliases": [
+        "APT31",
+        "Violet Typhoon",
+        "ZIRCONIUM"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0129",
+      "name": "Mustang Panda",
+      "url": "https://attack.mitre.org/groups/G0129",
+      "aliases": [
+        "BRONZE PRESIDENT",
+        "CAMARO DRAGON",
+        "ClumsyToad",
+        "EARTH PRETA",
+        "FIREANT",
+        "HIVE0154",
+        "LUMINOUS MOTH",
+        "Mustang Panda",
+        "Red Lich",
+        "RedDelta",
+        "STATELY TAURUS",
+        "TA416",
+        "TANTALUM",
+        "TEMP.Hex",
+        "TWILL TYPHOON",
+        "UNC6384"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0130",
+      "name": "Ajax Security Team",
+      "url": "https://attack.mitre.org/groups/G0130",
+      "aliases": [
+        "Ajax Security Team",
+        "AjaxTM",
+        "Flying Kitten",
+        "Operation Saffron Rose",
+        "Operation Woolen-Goldfish",
+        "Rocket Kitten"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0131",
+      "name": "Tonto Team",
+      "url": "https://attack.mitre.org/groups/G0131",
+      "aliases": [
+        "BRONZE HUNTLEY",
+        "CactusPete",
+        "Earth Akhlut",
+        "Karma Panda",
+        "Tonto Team"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0133",
+      "name": "Nomadic Octopus",
+      "url": "https://attack.mitre.org/groups/G0133",
+      "aliases": [
+        "DustSquad",
+        "Nomadic Octopus"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0134",
+      "name": "Transparent Tribe",
+      "url": "https://attack.mitre.org/groups/G0134",
+      "aliases": [
+        "APT36",
+        "COPPER FIELDSTONE",
+        "Mythic Leopard",
+        "ProjectM",
+        "Transparent Tribe"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0135",
+      "name": "BackdoorDiplomacy",
+      "url": "https://attack.mitre.org/groups/G0135",
+      "aliases": [
+        "BackdoorDiplomacy"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0136",
+      "name": "IndigoZebra",
+      "url": "https://attack.mitre.org/groups/G0136",
+      "aliases": [
+        "IndigoZebra"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0137",
+      "name": "Ferocious Kitten",
+      "url": "https://attack.mitre.org/groups/G0137",
+      "aliases": [
+        "Ferocious Kitten"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0138",
+      "name": "Andariel",
+      "url": "https://attack.mitre.org/groups/G0138",
+      "aliases": [
+        "Andariel",
+        "Onyx Sleet",
+        "PLUTONIUM",
+        "Silent Chollima"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0139",
+      "name": "TeamTNT",
+      "url": "https://attack.mitre.org/groups/G0139",
+      "aliases": [
+        "TeamTNT"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0140",
+      "name": "LazyScripter",
+      "url": "https://attack.mitre.org/groups/G0140",
+      "aliases": [
+        "LazyScripter"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0142",
+      "name": "Confucius",
+      "url": "https://attack.mitre.org/groups/G0142",
+      "aliases": [
+        "Confucius",
+        "Confucius APT"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G0143",
+      "name": "Aquatic Panda",
+      "url": "https://attack.mitre.org/groups/G0143",
+      "aliases": [
+        "Aquatic Panda"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1001",
+      "name": "HEXANE",
+      "url": "https://attack.mitre.org/groups/G1001",
+      "aliases": [
+        "HEXANE",
+        "Lyceum",
+        "Siamesekitten",
+        "Spirlin"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1002",
+      "name": "BITTER",
+      "url": "https://attack.mitre.org/groups/G1002",
+      "aliases": [
+        "BITTER",
+        "T-APT-17"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1003",
+      "name": "Ember Bear",
+      "url": "https://attack.mitre.org/groups/G1003",
+      "aliases": [
+        "Bleeding Bear",
+        "Cadet Blizzard",
+        "DEV-0586",
+        "Ember Bear",
+        "Frozenvista",
+        "UAC-0056",
+        "UNC2589"
+      ],
+      "local_profile_ids": [
+        "ru-gru-29155"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G1004",
+      "name": "LAPSUS$",
+      "url": "https://attack.mitre.org/groups/G1004",
+      "aliases": [
+        "DEV-0537",
+        "LAPSUS$",
+        "Strawberry Tempest"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1005",
+      "name": "POLONIUM",
+      "url": "https://attack.mitre.org/groups/G1005",
+      "aliases": [
+        "Plaid Rain",
+        "POLONIUM"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1006",
+      "name": "Earth Lusca",
+      "url": "https://attack.mitre.org/groups/G1006",
+      "aliases": [
+        "Charcoal Typhoon",
+        "CHROMIUM",
+        "ControlX",
+        "Earth Lusca",
+        "TAG-22"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1007",
+      "name": "Aoqin Dragon",
+      "url": "https://attack.mitre.org/groups/G1007",
+      "aliases": [
+        "Aoqin Dragon"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1008",
+      "name": "SideCopy",
+      "url": "https://attack.mitre.org/groups/G1008",
+      "aliases": [
+        "SideCopy"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1009",
+      "name": "Moses Staff",
+      "url": "https://attack.mitre.org/groups/G1009",
+      "aliases": [
+        "DEV-0500",
+        "Marigold Sandstorm",
+        "Moses Staff"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1011",
+      "name": "EXOTIC LILY",
+      "url": "https://attack.mitre.org/groups/G1011",
+      "aliases": [
+        "EXOTIC LILY"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1012",
+      "name": "CURIUM",
+      "url": "https://attack.mitre.org/groups/G1012",
+      "aliases": [
+        "Crimson Sandstorm",
+        "CURIUM",
+        "TA456",
+        "Tortoise Shell",
+        "Yellow Liderc"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1013",
+      "name": "Metador",
+      "url": "https://attack.mitre.org/groups/G1013",
+      "aliases": [
+        "Metador"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1014",
+      "name": "LuminousMoth",
+      "url": "https://attack.mitre.org/groups/G1014",
+      "aliases": [
+        "LuminousMoth"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1015",
+      "name": "Scattered Spider",
+      "url": "https://attack.mitre.org/groups/G1015",
+      "aliases": [
+        "Octo Tempest",
+        "Roasted 0ktapus",
+        "Scattered Spider",
+        "Storm-0875",
+        "UNC3944"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1016",
+      "name": "FIN13",
+      "url": "https://attack.mitre.org/groups/G1016",
+      "aliases": [
+        "Elephant Beetle",
+        "FIN13"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1017",
+      "name": "Volt Typhoon",
+      "url": "https://attack.mitre.org/groups/G1017",
+      "aliases": [
+        "BRONZE SILHOUETTE",
+        "DazedToad",
+        "DEV-0391",
+        "Insidious Taurus",
+        "UNC3236",
+        "Vanguard Panda",
+        "Volt Typhoon",
+        "Voltzite"
+      ],
+      "local_profile_ids": [
+        "cn-volt-typhoon"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G1018",
+      "name": "TA2541",
+      "url": "https://attack.mitre.org/groups/G1018",
+      "aliases": [
+        "TA2541"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1019",
+      "name": "MoustachedBouncer",
+      "url": "https://attack.mitre.org/groups/G1019",
+      "aliases": [
+        "MoustachedBouncer"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1020",
+      "name": "Mustard Tempest",
+      "url": "https://attack.mitre.org/groups/G1020",
+      "aliases": [
+        "DEV-0206",
+        "GOLD PRELUDE",
+        "Mustard Tempest",
+        "TA569",
+        "UNC1543"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1021",
+      "name": "Cinnamon Tempest",
+      "url": "https://attack.mitre.org/groups/G1021",
+      "aliases": [
+        "BRONZE STARLIGHT",
+        "Cinnamon Tempest",
+        "DEV-0401",
+        "Emperor Dragonfly"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1022",
+      "name": "ToddyCat",
+      "url": "https://attack.mitre.org/groups/G1022",
+      "aliases": [
+        "ToddyCat"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1023",
+      "name": "APT5",
+      "url": "https://attack.mitre.org/groups/G1023",
+      "aliases": [
+        "APT5",
+        "BRONZE FLEETWOOD",
+        "Keyhole Panda",
+        "MANGANESE",
+        "Mulberry Typhoon",
+        "UNC2630"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1024",
+      "name": "Akira",
+      "url": "https://attack.mitre.org/groups/G1024",
+      "aliases": [
+        "Akira",
+        "GOLD SAHARA",
+        "Howling Scorpius",
+        "PUNK SPIDER"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1026",
+      "name": "Malteiro",
+      "url": "https://attack.mitre.org/groups/G1026",
+      "aliases": [
+        "Malteiro"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1028",
+      "name": "APT-C-23",
+      "url": "https://attack.mitre.org/groups/G1028",
+      "aliases": [
+        "APT-C-23",
+        "Arid Viper",
+        "Big Bang APT",
+        "Desert Falcon",
+        "Grey Karkadann",
+        "Mantis",
+        "TAG-63",
+        "Two-tailed Scorpion"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1030",
+      "name": "Agrius",
+      "url": "https://attack.mitre.org/groups/G1030",
+      "aliases": [
+        "Agonizing Serpens",
+        "Agrius",
+        "AMERICIUM",
+        "BlackShadow",
+        "Pink Sandstorm"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1031",
+      "name": "Saint Bear",
+      "url": "https://attack.mitre.org/groups/G1031",
+      "aliases": [
+        "Lorec53",
+        "Saint Bear",
+        "Storm-0587",
+        "TA471",
+        "UAC-0056"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1032",
+      "name": "INC Ransom",
+      "url": "https://attack.mitre.org/groups/G1032",
+      "aliases": [
+        "GOLD IONIC",
+        "INC Ransom"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1033",
+      "name": "Star Blizzard",
+      "url": "https://attack.mitre.org/groups/G1033",
+      "aliases": [
+        "Callisto Group",
+        "COLDRIVER",
+        "SEABORGIUM",
+        "Star Blizzard",
+        "TA446"
+      ],
+      "local_profile_ids": [
+        "ru-star-blizzard"
+      ],
+      "profile_status": "profiled"
+    },
+    {
+      "id": "G1034",
+      "name": "Daggerfly",
+      "url": "https://attack.mitre.org/groups/G1034",
+      "aliases": [
+        "BRONZE HIGHLAND",
+        "Daggerfly",
+        "Evasive Panda"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1035",
+      "name": "Winter Vivern",
+      "url": "https://attack.mitre.org/groups/G1035",
+      "aliases": [
+        "TA473",
+        "UAC-0114",
+        "Winter Vivern"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1036",
+      "name": "Moonstone Sleet",
+      "url": "https://attack.mitre.org/groups/G1036",
+      "aliases": [
+        "Moonstone Sleet",
+        "Storm-1789"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1037",
+      "name": "TA577",
+      "url": "https://attack.mitre.org/groups/G1037",
+      "aliases": [
+        "TA577"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1038",
+      "name": "TA578",
+      "url": "https://attack.mitre.org/groups/G1038",
+      "aliases": [
+        "TA578"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1039",
+      "name": "RedCurl",
+      "url": "https://attack.mitre.org/groups/G1039",
+      "aliases": [
+        "RedCurl"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1040",
+      "name": "Play",
+      "url": "https://attack.mitre.org/groups/G1040",
+      "aliases": [
+        "Play"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1041",
+      "name": "Sea Turtle",
+      "url": "https://attack.mitre.org/groups/G1041",
+      "aliases": [
+        "Cosmic Wolf",
+        "Marbled Dust",
+        "Sea Turtle",
+        "SILICON",
+        "Teal Kurma"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1042",
+      "name": "RedEcho",
+      "url": "https://attack.mitre.org/groups/G1042",
+      "aliases": [
+        "RedEcho"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1043",
+      "name": "BlackByte",
+      "url": "https://attack.mitre.org/groups/G1043",
+      "aliases": [
+        "BlackByte",
+        "Hecamede"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1044",
+      "name": "APT42",
+      "url": "https://attack.mitre.org/groups/G1044",
+      "aliases": [
+        "APT42"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1045",
+      "name": "Salt Typhoon",
+      "url": "https://attack.mitre.org/groups/G1045",
+      "aliases": [
+        "Salt Typhoon"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1046",
+      "name": "Storm-1811",
+      "url": "https://attack.mitre.org/groups/G1046",
+      "aliases": [
+        "Storm-1811"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1047",
+      "name": "Velvet Ant",
+      "url": "https://attack.mitre.org/groups/G1047",
+      "aliases": [
+        "Velvet Ant"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1048",
+      "name": "UNC3886",
+      "url": "https://attack.mitre.org/groups/G1048",
+      "aliases": [
+        "UNC3886"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1049",
+      "name": "AppleJeus",
+      "url": "https://attack.mitre.org/groups/G1049",
+      "aliases": [
+        "AppleJeus",
+        "Citrine Sleet",
+        "Gleaming Pisces",
+        "UNC1720",
+        "UNC4736"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1050",
+      "name": "Water Galura",
+      "url": "https://attack.mitre.org/groups/G1050",
+      "aliases": [
+        "GOLD FEATHER",
+        "Water Galura"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1051",
+      "name": "Medusa Group",
+      "url": "https://attack.mitre.org/groups/G1051",
+      "aliases": [
+        "Medusa Group"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1052",
+      "name": "Contagious Interview",
+      "url": "https://attack.mitre.org/groups/G1052",
+      "aliases": [
+        "Contagious Interview",
+        "DeceptiveDevelopment",
+        "DEV#POPPER",
+        "Gwisin Gang",
+        "PurpleBravo",
+        "TAG-121",
+        "Tenacious Pungsan"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1053",
+      "name": "Storm-0501",
+      "url": "https://attack.mitre.org/groups/G1053",
+      "aliases": [
+        "Storm-0501"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1054",
+      "name": "MirrorFace",
+      "url": "https://attack.mitre.org/groups/G1054",
+      "aliases": [
+        "Earth Kasha",
+        "MirrorFace"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1055",
+      "name": "VOID MANTICORE",
+      "url": "https://attack.mitre.org/groups/G1055",
+      "aliases": [
+        "BANISHED KITTEN",
+        "COBALT MYSTIQUE",
+        "Handala Hack",
+        "Homeland Justice",
+        "Karma",
+        "Karmabelow80",
+        "Red Sandstorm",
+        "VOID MANTICORE"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1056",
+      "name": "TeamPCP",
+      "url": "https://attack.mitre.org/groups/G1056",
+      "aliases": [
+        "DeadCatx3",
+        "PCPCat",
+        "SHADOW-WATER-058",
+        "ShellForce",
+        "TeamPCP",
+        "UNC6780"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1057",
+      "name": "ShinyHunters",
+      "url": "https://attack.mitre.org/groups/G1057",
+      "aliases": [
+        "Bling Libra",
+        "ShinyHunters",
+        "UNC6240"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1058",
+      "name": "The Gentlemen",
+      "url": "https://attack.mitre.org/groups/G1058",
+      "aliases": [
+        "GOLD SHERWOOD",
+        "Storm-2697",
+        "The Gentlemen"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    },
+    {
+      "id": "G1059",
+      "name": "NIMBUS MANTICORE",
+      "url": "https://attack.mitre.org/groups/G1059",
+      "aliases": [
+        "COBALT SMOKEY",
+        "NIMBUS MANTICORE",
+        "TA455",
+        "UNC1549"
+      ],
+      "local_profile_ids": [],
+      "profile_status": "not_profiled"
+    }
+  ]
+}

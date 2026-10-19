@@ -12,6 +12,7 @@
     <nav class="nav" aria-label="Primary navigation">
       <a href="#cases">Cases</a>
       <a href="#names">Public names</a>
+      <a href="#records">Records desk</a>
       <a href="#method">Method</a>
       <a href="data/public-case-archive.json">JSON</a>
       <a href="docs/source-policy.md">Source policy</a>
@@ -102,6 +103,15 @@
         <p><strong>Defender lesson:</strong> Separate detention, allegations, public evidence, trial status, exchange status, and denial.</p>
         <p class="source-list"><a href="https://www.theguardian.com/world/2024/oct/15/journalist-russian-spy-pablo-gonzalez-kremlin-illegal">Guardian</a><a href="https://en.wikipedia.org/wiki/Pablo_Gonz%C3%A1lez_Yag%C3%BCe">Summary</a></p>
       </article>
+
+      <article class="case-card">
+        <p class="eyebrow">eCrime / reported sentence / low confidence</p>
+        <h3>Sebastien Raoult / ShinyHunters-linked data-theft case</h3>
+        <p>The archive cites a DOJ sentencing release for French national Sebastien Raoult in a hacking and stolen-data case. The release text was not retrieved in this repository, so the sentence is unverified. A single prosecution does not establish that the wider ShinyHunters label was dismantled.</p>
+        <p><strong>Public name:</strong> Sebastien Raoult.</p>
+        <p><strong>Defender lesson:</strong> Use strong authentication, least-privilege access, breach detection, and prompt credential rotation; do not infer responsibility from a cluster label alone.</p>
+        <p class="source-list"><a href="https://www.justice.gov/usao-wdwa/pr/french-hacker-sentenced-three-years-prison-hacking-and-selling-stolen-data">DOJ release (unverified)</a><a href="data/public-case-archive.json">Dataset</a></p>
+      </article>
     </section>
 
     <section class="section-head" id="names">
@@ -119,6 +129,34 @@
       <article class="name-card"><strong>Sergey Cherkasov / Victor Muller Ferreira</strong><span>ICC access case</span></article>
       <article class="name-card"><strong>Mikhail Mikushin / Jose Assis Giammaria</strong><span>Norway academic-cover case</span></article>
       <article class="name-card"><strong>Pablo Gonzalez / Pavel Rubtsov</strong><span>Disputed journalist-cover case</span></article>
+      <article class="name-card"><strong>Sebastien Raoult</strong><span>ShinyHunters-linked data-theft case; reported sentence, unverified</span></article>
+    </section>
+
+    <section class="section-head" id="records">
+      <p class="eyebrow">Official sources / rolling reference</p>
+      <h2>Public Records Desk</h2>
+      <p>Use official live records for current wanted status and case outcomes. The requested archive cutoff is 2026-10-18; the existing case archive remains dated by its own review metadata, and this directory does not imply every case has been re-verified through that date.</p>
+      <div class="method-grid">
+        <article>
+          <h3>Fugitives and cases</h3>
+          <p><a href="https://www.fbi.gov/wanted/topten">FBI Ten Most Wanted</a><br><a href="https://www.fbi.gov/wanted/cyber">FBI Cyber's Most Wanted</a><br><a href="https://www.fbi.gov/news/press-releases">FBI press releases</a><br><a href="https://www.justice.gov/action-center/justice-department-most-wanted">DOJ Most Wanted</a></p>
+          <p><a href="data/wanted/fbi-wanted.json">FBI wanted notices (threat categories)</a><br><a href="data/groups/mitre-attack-intrusion-sets.json">MITRE ATT&amp;CK group aliases</a><br><a href="data/sanctions/ofac-cyber-dprk.json">OFAC cyber and DPRK designations</a><br><a href="data/advisories/ic3-psa-index.json">IC3 PSA index</a></p>
+        </article>
+        <article>
+          <h3>Cyber and fraud</h3>
+          <p><a href="https://www.ic3.gov/">FBI IC3</a><br><a href="https://www.ic3.gov/AnnualReport/Reports">IC3 annual reports</a><br><a href="https://www.ic3.gov/PSA">IC3 alerts</a><br><a href="https://www.cisa.gov/news-events/cybersecurity-advisories">CISA advisories</a></p>
+        </article>
+        <article>
+          <h3>Intelligence and sanctions</h3>
+          <p><a href="https://www.justice.gov/nsd">DOJ National Security Division</a><br><a href="https://www.cia.gov/readingroom/">CIA Reading Room</a><br><a href="https://rewardsforjustice.net/">Rewards for Justice</a><br><a href="https://ofac.treasury.gov/sanctions-list-service">OFAC sanctions lists</a></p>
+        </article>
+        <article>
+          <h3>Case status matters</h3>
+          <p>An arrest, charge, conviction, sentence, sanction, and active wanted notice are different events. ShinyHunters is a cluster label; a single arrest does not establish that an entire group has been caught.</p>
+          <p><a href="https://www.fbi.gov/investigate/terrorism">FBI public safety</a> · <a href="https://www.justice.gov/crt">DOJ Civil Rights</a> · <a href="https://www.cisa.gov/topics/election-security">CISA election security</a></p>
+          <p><a href="docs/public-records-desk.md">Open source directory and case-entry standards</a></p>
+        </article>
+      </div>
     </section>
 
     <section class="section-head" id="method">
