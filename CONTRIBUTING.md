@@ -47,4 +47,5 @@ Use clear language. Prefer phrases such as `public reporting says`, `public sour
 python -m pip install pyyaml
 python scripts/validate_actors.py
 python scripts/build_index.py
+python scripts/validate_datasets.py
 ```

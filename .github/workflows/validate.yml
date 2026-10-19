@@ -22,5 +22,8 @@ jobs:
       - name: Validate actor profiles
         run: python scripts/validate_actors.py
 
+      - name: Validate datasets
+        run: python scripts/validate_datasets.py
+
       - name: Build index
         run: python scripts/build_index.py

@@ -30,7 +30,7 @@ sources:
   - title: Kimsuky
     publisher: MITRE ATT&CK
     url: https://attack.mitre.org/groups/G0094/
-  - title: Fast Facts: Kimsuky
+  - title: "Fast Facts: Kimsuky"
     publisher: CISA
     date: 2020-10-27
     url: https://www.cisa.gov/news-events/alerts/2020/10/27/kimsuky-apt-group

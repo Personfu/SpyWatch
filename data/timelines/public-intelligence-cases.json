@@ -56,8 +56,8 @@
       "case_id": "case-maria-adela-olga-kolobova",
       "title": "Maria Adela reportedly leaves Naples for Moscow",
       "category": "timeline",
-      "summary": "The user-provided transcript and public reporting describe Maria Adela leaving Naples for Moscow shortly after GRU passport-range reporting became public.",
-      "source": "Bellingcat / user transcript"
+      "summary": "Unverified in this repository: a user-supplied transcript describes Maria Adela leaving Naples for Moscow after GRU passport-range reporting became public.",
+      "source": "User-supplied transcript (not a public source; unverified)"
     },
     {
       "date": "2022-06",
@@ -85,7 +85,7 @@
     },
     {
       "date": "2024-09-05",
-      "case_id": "case-unit-29155-public-names",
+      "case_id": "case-unit-29155-human-operators",
       "title": "Unit 29155 cyber public naming wave",
       "category": "public-release",
       "summary": "CISA, DOJ, and Rewards for Justice publicly linked named GRU Unit 29155 officers to cyber activity involving WhisperGate and critical infrastructure targeting.",
